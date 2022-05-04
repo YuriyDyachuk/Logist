@@ -1,0 +1,245 @@
+.btn {
+  border-radius: 4px !important;
+  padding: 10px 25px;
+  outline: 0 !important;
+  height: 40px;
+  font-family: rubik-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  position: relative;
+  color: #000;
+  text-transform: capitalize;
+  transition: all .3s ease;
+
+  //display: table-cell;
+  //vertical-align: middle;
+
+  // ICONS STYLES IN BUTTONS
+  .as {
+    margin-right: 15px!important;
+    float: left;
+    margin-left: -5px;
+    &:before {
+      margin-top: -6px;
+    }
+    &:hover {
+      color: #000000;
+    }
+  }
+  .fa {
+    margin-right: 15px!important;
+    float: left;
+    margin-left: -8px;
+    margin-top: 4px;
+  }
+  .glyphicon {
+    margin-right: 15px !important;
+    float: left;
+    margin-left: -7px;
+    top: 3px;
+    opacity: 0.5;
+    &:before {
+      margin-top: -5px;
+      margin-left: 2px
+    }
+  }
+  i {
+    font-style: normal;
+  }
+
+  &:hover {
+    .arrow-right {
+      transform: translateX(5px);
+    }
+  }
+}
+
+.btn + .btn {
+  margin-left: 5px;
+}
+
+.arrow-right {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-image: url("/public/images/svg/arrow_w.svg");
+  background-repeat: no-repeat;
+  margin-left: 12px;
+  background-position: right;
+  vertical-align: middle;
+  transition: all .3s ease;
+}
+
+.symbol-close {
+  font-size: 19px;
+  font-style: normal;
+  position: relative;
+  top: 2px;
+  margin-left: 10px
+}
+
+//button.btn {
+//  padding-top: 9px;
+//}
+.btn-success ,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:visited {
+  color: #fff;
+}
+
+
+.button-style1,
+.button-style1:active,
+.button-style1:focus,
+.button-style1:visited {
+  //min-width: $btn-min-width;
+  background-color: $btn-green-bg;
+  color: #fff;
+}
+
+.button-style1:hover,
+.button-style1:focus,
+.button-style1:active {
+  background-color: $btn-green-bg-hover;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+.button-style2,
+.button-style2:active,
+.button-style2:focus,
+.button-style2:visited {
+  //min-width: $btn-min-width;
+  background-color: $btn-blue-bg;
+  color: #fff;
+}
+
+.button-style2:hover,
+.button-style2:focus,
+.button-style2:active {
+  background-color: $btn-blue-bg-hover;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+.button-style3,
+.button-style3:active,
+.button-style3:focus,
+.button-style3:visited {
+  //min-width: $btn-min-width;
+  border: 1px solid $btn-green-bg;
+  background-color: $btn-light-bg;
+  color: #000000;
+}
+
+.button-style3:hover,
+.button-style3:focus,
+.button-style3:active {
+  border: 1px solid $btn-green-bg-hover;;
+  background-color: $btn-light-bg;
+  color: #000000;
+}
+
+
+.button-green,
+.button-green:active,
+.button-green:focus,
+.button-green:visited {
+  //min-width: $btn-min-width;
+  background-color: #00cf3e !important;
+  color: #fff;
+  border: none !important;
+  outline: none !important;
+}
+.button-green:hover,
+.button-green:focus,
+.button-green:active {
+  background-color: #00b839 !important;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+.button-block,
+.button-block:active,
+.button-block:focus,
+.button-block:visited {
+  //min-width: $btn-min-width;
+  color:#fff;
+  background-color: $btn-block-bg;
+}
+.button-block:hover,
+.button-block:focus,
+.button-block:active {
+  color:#fff;
+  background-color: $btn-block-bg;
+}
+
+.button-cancel,
+.button-cancel:active,
+.button-cancel:focus,
+.button-cancel:visited {
+  //min-width: $btn-min-width;
+  color:#000000;
+  background-color: transparent;
+}
+.button-cancel:hover,
+.button-cancel:focus,
+.button-cancel:active {
+  color: #000000;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.button-cancel:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 0;
+  //background-color: #007cff;
+  background-color: $btn-green-bg;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+}
+
+.button-cancel:hover:after {
+  left: 0;
+  right: 3px;
+  width: 100%;
+}
+
+.button-danger,
+.button-danger:active,
+.button-danger:focus,
+.button-danger:visited
+{
+  //min-width: $btn-min-width;
+  background-color: #d9534f;
+  color: #fff;
+  border: none !important;
+  outline: none !important;
+}
+
+.button-danger:hover,
+.button-danger:focus,
+.button-danger:active {
+  background-color: #c9302c;
+  color: #fff;
+}
+
+.modal-footer {
+  .btn {
+    min-width: inherit;
+    width: 160px;
+  }
+}

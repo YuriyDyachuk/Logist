@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://namespaces.gsma.org/mobile-connect/1.1" xmlns:ns2="http://uri.etsi.org/TS102204/v1.1.2#">
+<SOAP-ENV:Body>
+  <ns1:MSS_StatusQuery>
+    <MSS_StatusReq MajorVersion="1" MinorVersion="1" MSSP_TransID="[[mssptransid]]"><ns2:AP_Info AP_ID="[[provider]]" AP_TransID="[[transid]]" AP_PWD="[[password]]" Instant="[[datetime]]"/>
+      <ns2:MSSP_Info>
+        <ns2:MSSP_ID>
+          <ns2:DNSName>valimo-test.kyivstar.ua</ns2:DNSName>
+        </ns2:MSSP_ID>
+      </ns2:MSSP_Info>
+    </MSS_StatusReq>
+  </ns1:MSS_StatusQuery>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,131 @@
+@page { margin: 0px !important; padding:0px !important;}
+html { margin: 0px !important;; padding: 0px !important;}
+
+@font-face {
+  font-family: 'opensans-regular';
+  src: url('../fonts/open-sans-webfont.eot');
+  src: url('../fonts/open-sans-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/open-sans-webfont.woff2') format('woff2'),
+  url('../fonts/open-sans-webfont.woff') format('woff'),
+  url('../fonts/open-sans-webfont.ttf') format('truetype'),
+  url('../fonts/open-sans-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensans-semibold';
+  src: url('../fonts/open-sans-semibold-webfont.eot');
+  src: url('../fonts/open-sans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/open-sans-semibold-webfont.woff2') format('woff2'),
+  url('../fonts/open-sans-semibold-webfont.woff') format('woff'),
+  url('../fonts/open-sans-semibold-webfont.svg#open_sanssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensans-bold';
+  src: url('../fonts/open-sans-bold-webfont.eot');
+  src: url('../fonts/open-sans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/open-sans-bold-webfont.woff2') format('woff2'),
+  url('../fonts/open-sans-bold-webfont.woff') format('woff'),
+  url('../fonts/open-sans-bold-webfont.ttf') format('truetype'),
+  url('../fonts/open-sans-bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('../fonts/montserrat-bold-webfont.eot');
+  src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+  url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+  url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+  url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'akrobat-bold';
+  src: url('../fonts/akrobat-bold-webfont.eot');
+  src: url('../fonts/akrobat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/akrobat-bold-webfont.woff2') format('woff2'),
+  url('../fonts/akrobat-bold-webfont.woff') format('woff'),
+  url('../fonts/Akrobat_Bold.ttf') format('truetype'),
+  url('../fonts/akrobat-bold-webfont.svg#akrobatbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: new_font;
+  src: url('../fonts/Akrobat_Bold.ttf');
+}
+
+@font-face {
+  font-family: regular;
+  src: url('../fonts/2212.ttf');
+}
+
+@font-face {
+  font-family: semiBoldOpen;
+  src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  font-family: 'opensans-regular';
+}
+
+
+.force-break{
+  page-break-after: always !important;
+  page-break-before: avoid !important;
+  page-break-inside: avoid !important;
+}
+
+.page {
+  page-break-inside: avoid !important;
+  page-break-after: avoid !important;
+  page-break-before: avoid !important;
+}
+
+.page-break {page-break-after: always;}
+
+$space_empty_bottom: 60px;
+$font_size_default: 48px;
+
+
+@page { margin: 1cm;}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+
+@import "fonts";
+
+/* Load Template */
+@import 'pdf/pdf_common';
+@import 'pdf/pdf_order_request';
+
+@import 'pdf/analytics';

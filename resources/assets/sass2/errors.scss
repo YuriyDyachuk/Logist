@@ -1,0 +1,66 @@
+.page-404 {
+  background-color: #FFFFFF;
+  .tab-content {
+    margin-top: 60px;
+  }
+  h1 {
+    font-family: 'rubik-medium';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 120.1%;
+    letter-spacing: 0.02em;
+    color: #007CFF;
+    text-transform: inherit;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-family:'rubik-regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #121416;
+    .text {
+      opacity: 0.5;
+    }
+
+    .btn {
+      margin-top: 60px;
+      text-transform: inherit;
+    }
+  }
+
+  img {
+    margin-top: 0;
+  }
+}
+
+.front404 {
+
+  .container {
+    background-color: #fff;
+  }
+
+  .logo {
+    margin-top: 20px;
+    svg {
+      width: 81px;
+      height: 26px;
+    }
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .page-404 {
+    .tab-content {
+      margin-top: 0;
+    }
+
+    img {
+      margin-top: 50px;
+    }
+  }
+}

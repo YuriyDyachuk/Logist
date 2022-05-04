@@ -1,0 +1,473 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Inn-Logist API",
+        "description": "Api for Inn-Logist API",
+        "contact": {
+            "email": "filonuse@gmail.com"
+        },
+        "license": {
+            "name": "MIT"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://innlogist.com/api/v2",
+            "description": "OpenApi host"
+        }
+    ],
+    "paths": {
+        "/api/v1.0": {},
+        "/api/v2/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Login",
+                "description": "Return token",
+                "operationId": "login",
+                "responses": {
+                    "200": {
+                        "description": "Return token, transport info, driver info"
+                    }
+                }
+            }
+        },
+        "/api/v2/logout": {
+            "get": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Logout",
+                "description": "Returns order",
+                "operationId": "logout",
+                "responses": {
+                    "200": {
+                        "description": "New token"
+                    }
+                }
+            }
+        },
+        "/api/v2/refresh": {
+            "get": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Get new Token [NEED FOR TEST!!! UPDATED]",
+                "description": "Returns order",
+                "operationId": "refreshToken",
+                "responses": {
+                    "200": {
+                        "description": "New token"
+                    }
+                }
+            }
+        },
+        "/api/v2/documents": {
+            "post": {
+                "tags": [
+                    "Documents"
+                ],
+                "summary": "Get documents",
+                "description": "Returns documents",
+                "operationId": "getDocuments",
+                "parameters": [
+                    {
+                        "name": "order_id",
+                        "in": "header",
+                        "description": "",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v2/signature": {
+            "post": {
+                "tags": [
+                    "Signature"
+                ],
+                "summary": "signature",
+                "description": "",
+                "operationId": "signature",
+                "parameters": [
+                    {
+                        "name": "document_id",
+                        "in": "header",
+                        "description": "document_id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "phone",
+                        "in": "header",
+                        "description": "phone",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    },
+                    "500": {
+                        "description": "Error in gateway connection: Request delivery failed: timeout when waiting for response"
+                    }
+                }
+            }
+        },
+        "/api/v2/signature/check": {
+            "post": {
+                "tags": [
+                    "Signature"
+                ],
+                "summary": "signature check Kyivstar",
+                "description": "",
+                "operationId": "signatureCheck",
+                "parameters": [
+                    {
+                        "name": "sign",
+                        "in": "header",
+                        "description": "signature id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v2/signature/is_signed": {
+            "post": {
+                "tags": [
+                    "Signature"
+                ],
+                "summary": "document signature check",
+                "description": "",
+                "operationId": "signatureIsSigned",
+                "parameters": [
+                    {
+                        "name": "document_id",
+                        "in": "header",
+                        "description": "document_id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    },
+                    "500": {
+                        "description": "Error message"
+                    }
+                }
+            }
+        },
+        "/api/v2/orders?status={status}": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Get orders",
+                "description": "Returns orders",
+                "operationId": "getOrders",
+                "parameters": [
+                    {
+                        "name": "status",
+                        "in": "path",
+                        "description": "status: active (default) | completed | canceled",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "date_from",
+                        "in": "path",
+                        "description": "date_from",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "date_to",
+                        "in": "path",
+                        "description": "date_to",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v2/orders/{id}": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Get order by ID",
+                "description": "Returns order",
+                "operationId": "getOrderShow",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "order id",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v2/progress/{orderId}": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Get progress info",
+                "description": "Returns progress info",
+                "operationId": "getProgress",
+                "responses": {
+                    "200": {
+                        "description": "Progress Info",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v2/profile": {
+            "get": {
+                "tags": [
+                    "Profile"
+                ],
+                "summary": "Get profile info",
+                "description": "Returns profile info",
+                "operationId": "getProfileInfo",
+                "responses": {
+                    "200": {
+                        "description": "Driver Info"
+                    }
+                }
+            }
+        },
+        "/api/v2/report": {
+            "post": {
+                "tags": [
+                    "Driver report"
+                ],
+                "summary": "Get report",
+                "description": "Returns Json array",
+                "operationId": "getDriverReport",
+                "parameters": [
+                    {
+                        "name": "date_from",
+                        "in": "header",
+                        "description": "date_from",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "date_to",
+                        "in": "header",
+                        "description": "date_to",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Json array"
+                    }
+                }
+            }
+        },
+        "/api/v2/report/detail": {
+            "post": {
+                "tags": [
+                    "Driver report"
+                ],
+                "summary": "Get report detail",
+                "description": "Returns Json array",
+                "operationId": "getDriverExpensesDetail",
+                "parameters": [
+                    {
+                        "name": "date_from",
+                        "in": "header",
+                        "description": "date_from",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "date_to",
+                        "in": "header",
+                        "description": "date_to",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Json array"
+                    }
+                }
+            }
+        },
+        "/api/v2/report-update": {
+            "post": {
+                "tags": [
+                    "Driver report"
+                ],
+                "summary": "Update",
+                "description": "Update",
+                "operationId": "reportUpdate",
+                "parameters": [
+                    {
+                        "name": "fuel",
+                        "in": "header",
+                        "description": "fuel (costs) Expenses!",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "fuel_liters",
+                        "in": "header",
+                        "description": "fuel (liters) Expenses!",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "parking",
+                        "in": "header",
+                        "description": "parking costs",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "parts",
+                        "in": "header",
+                        "description": "parts costs",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "other",
+                        "in": "header",
+                        "description": "other costs",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "fuel_tank",
+                        "in": "header",
+                        "description": "fuel tank (Balance)",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    },
+                    "5000": {
+                        "description": "error"
+                    }
+                }
+            }
+        },
+        "/api/v2/report/expenses": {
+            "get": {
+                "tags": [
+                    "Driver report"
+                ],
+                "summary": "List",
+                "description": "Driver Expenses List",
+                "operationId": "reportExpensesList",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Auth",
+            "description": "Login, logout - get & refresh tokens"
+        }
+    ]
+}

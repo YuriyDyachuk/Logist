@@ -1,0 +1,39 @@
+{
+  "name": "inn-logist",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Amconsoft"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.amconsoft.com",
+  "ignore": [
+    "public/bower-components"
+  ],
+  "private": true,
+  "dependencies": {
+    "sweetalert2": "^6.11.4",
+    "animate.css": "^3.5.2",
+    "simplelightbox": "^1.11.1",
+    "remarkable-bootstrap-notify": "^3.1.3",
+    "jquery-mask-plugin": "^1.14.12",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "jquery-ui-sortable": "*",
+    "bootstrap-select": "1.13.5",
+    "bootstrap": "3.3.7",
+    "components-font-awesome": "4.7.0",
+    "font-awesome": "components-font-awesome#4.7.0",
+    "adminlte": "admin-lte#2.3.8",
+    "semantic": "semantic-ui#2.4.0",
+    "blueimp-gallery": "^2.34.1",
+    "simplebar": "^2.6.1",
+    "jquery": "3.2.1",
+    "jquery-eu-cookie-law-popup": "1.1.0",
+    "bootstrap-input-spinner": "https://github.com/shaack/bootstrap-input-spinner.git",
+    "youtubepopup": "https://github.com/QassimHassan/YouTube_PopUp.git",
+    "jQuery-viewport-checker": "1.8.8",
+    "jquery.viewportchecker": "jQuery-viewport-checker#1.8.8",
+    "swiper": "4.1.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

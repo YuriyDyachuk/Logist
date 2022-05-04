@@ -1,0 +1,170 @@
+body {
+  font-family: 'rubik-regular';
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+}
+
+td {
+  vertical-align: top;
+}
+
+th {
+  font-family: 'rubik-medium';
+}
+
+span {
+  font-size: $font_size_default !important;
+}
+
+.page-indent {
+
+}
+
+.color_style2 {
+  color: #007CFF!important;
+}
+
+.row_empty_spacer {
+  height: $space_empty_bottom;
+  display: block;
+  width: 1px;
+}
+
+.panel-textarea__title {
+  margin-left: 20px;
+  //margin-top: 30px;
+  margin-top: 5px;
+  color: #05195B;
+  margin-bottom: 40px;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-family: 'rubik-regular';
+}
+
+.pdf_template {
+  padding: 0 50px;
+  //width:2763px;
+  width: 100%;
+  //margin: 30px;
+
+  table th {
+    text-align: center;
+    color: #828282;
+    font-family: 'rubik-medium';
+    font-weight: normal;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .company_strong, .text-strong {
+    font-family: 'rubik-medium';
+  }
+
+  .row-padding-bottom-head > th {
+    padding-bottom: 1em;
+  }
+
+  .row-padding-bottom > td {
+    padding-bottom: 1em;
+  }
+
+  .text_underline {
+    text-decoration: underline;
+    color: #ffffff;
+    border-bottom: 1px solid #000000;
+  }
+
+  .title {
+    font-family: 'rubik-medium';
+    color: #007CFF;
+    line-height: 60px;
+  }
+
+  .content__qr-logo {
+    .content__qr-images {
+      width: 400px;
+    }
+  }
+
+  .user-signature-top{
+    margin-top: 20px;
+    color: #828282;
+    text-transform: uppercase;
+    padding-bottom: 140px;
+  }
+
+  .user-signature-top_lines {
+    border-bottom: 1px solid #828282;
+    margin: 80px 0 50px 0;
+    padding-bottom: 3px;
+    width: 70%;
+  }
+
+  font-size: $font_size_default;
+  line-height: 1.1em;
+
+  .panel-textarea {
+    background: #FFF;
+    border: 2px solid #BECFDC;
+    border-radius: 18px;
+    box-sizing: border-box;
+    //height: 120px;
+    width: 100%;
+    margin-bottom: $space_empty_bottom;
+
+
+    .panel-textarea_col_inner {
+      position: relative;
+      margin: 0 20px 20px 20px;
+      .line {
+        margin-bottom: 5px;
+      }
+      .sign {
+        position: relative;
+        img
+        {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  .text {
+    padding: 0 20px 30px 20px;
+  }
+
+
+
+  .title_col {
+    color: #828282;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    vertical-align: middle;
+    //font-weight: bold;
+    div {
+      margin-left: 20px;
+      margin-bottom: 10px;
+      line-height: 40px;
+      font-family: 'rubik-medium';
+    }
+  }
+  .title_val {
+    color: #323232;
+    font-size: 40px;
+    vertical-align: middle;
+    div {
+      font-family: 'rubik-regular';
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+

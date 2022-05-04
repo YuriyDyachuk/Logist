@@ -1,0 +1,63 @@
+.analytics-driver-report {
+  font-family: 'Rubik-regular';
+  font-style: normal;
+  font-weight: 500;
+  .analytics-driver-report__head{
+    margin-bottom: 10px;
+    div {
+      text-align: center;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 1.125px;
+      text-transform: uppercase;
+      color: #B0BAC9;
+    }
+  }
+  .analytics-driver-report__card {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    .driver_name {
+      font-size: 15px;
+      line-height: 18px;
+      margin-bottom: 5px;
+    }
+    .driver_date {
+      color: #8798AD;
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    &:hover {
+      box-shadow: 0 30px 40px -24px rgba(31, 37, 45, 0.1);
+    }
+  }
+
+
+  //----------------- Page Details
+
+  .details_head {
+    margin-bottom: 20px;
+    .driver_name {
+      font-size: 28px;
+      color: #000000;
+    }
+
+    .transport_number, .period {
+      font-size: 15px;
+      color: #2E384D;
+    }
+  }
+
+
+}
+
+.analytics-driver-report_details {
+  margin-top: 20px;
+
+}

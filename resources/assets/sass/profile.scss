@@ -1,0 +1,201 @@
+/* Page Profile */
+.profile-page .btn-prof {
+  min-width: 180px;
+}
+.profile-page .intl-tel-input {
+  display: block;
+}
+.profile-page .control-label {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #87abb2;
+  text-align: left;
+}
+.profile-page #staffs .content-box__filter {
+  margin: 0;
+}
+.profile-page #staffs .content-box__filter-search {
+  min-width: 300px;
+}
+.profile-page #staffs .bootstrap-select button {
+  background: transparent;
+}
+.profile-page .save-profile {
+  padding: 25px 15px;
+}
+.profile-page .detail-info h2:first-child {
+  margin-top: 0;
+}
+.profile-page .car_toogle {
+  position: relative;
+}
+.profile-page .car_toogle .panel-title {
+  font-size: 12px;
+}
+.profile-page .car_toogle label {
+  margin-bottom: 0;
+}
+.profile-page .input-group-addon.btn_remove_spec {
+  border: none;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.profile-page .input-group-addon.btn_remove_spec:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.profile-page .item_cc {
+  padding: 25px 0;
+}
+.profile-page .header-tools {
+  margin-top: 0;
+}
+.profile-page .header-tools .as {
+  height: 12px;
+  margin-right: 5px;
+}
+.profile-page .header-tools > .btn {
+  display: block;
+  width: 200px;
+  margin-bottom: 4px;
+  margin-left: auto;
+}
+.profile-page .header-tools > .btn .btn-lg {
+  padding: 12px 20px;
+}
+.profile-page .tab-content {
+  min-height: auto;
+}
+#addEmployee #addTwoPhone {
+  padding: 0;
+  margin-bottom: 15px;
+}
+#addEmployee .bootstrap-select button {
+  background: #f2f7fa;
+}
+#addEmployee .modal-header {
+  padding-bottom: 25px;
+}
+.file-name {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  display: block;
+  width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  color: #87abb2;
+  white-space: nowrap;
+}
+.addon-file {
+  position: relative;
+}
+.addon-file input[type=text] {
+  padding-right: 130px;
+}
+.addon-file .addon-file-label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.addon-file .addon-file-label:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#staffs,
+#partners {
+  padding: 0 15px;
+}
+#staffs .row,
+#partners .row {
+  border-bottom: 1px solid #eceff1;
+  padding: 15px;
+  position: relative;
+}
+#staffs .row .content-box__header-avatar,
+#partners .row .content-box__header-avatar {
+  margin: 0;
+  border-radius: 50%;
+  background-color: #f2f7fa;
+}
+#staffs .row .panel-client .name,
+#partners .row .panel-client .name {
+  /*margin-left: 30px;*/
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: #333;
+  text-transform: none;
+  white-space: normal;
+  //text-align: center;
+}
+#staffs .row .panel-client .label-status,
+#partners .row .panel-client .label-status {
+  /*margin-top: 20px;*/
+  display: inline-block;
+  width: max-content;
+}
+#staffs .label-name,
+#partners .label-name {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+.logo {
+  height: 71px;
+}
+.logo .logo-globus {
+  height: 100%;
+  background: url("/main_layout/images/services/globus-logo.png") no-repeat 50% 77%;
+  background-size: 100%;
+}
+#documents > .form-group {
+  border-bottom: 2px solid #f2f7fa;
+  margin-bottom: 0;
+  padding: 15px 0;
+}
+#documents > .form-group:last-child {
+  border-bottom: none;
+}
+.instructions_list .title:after {
+  content: "";
+  font: normal normal normal 14px/1 FontAwesome;
+  display: inline-block;
+  color: #0c82ff;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.instructions_list .title.collapsed:after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

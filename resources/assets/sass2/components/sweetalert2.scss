@@ -1,0 +1,92 @@
+/* SWEETALERT2 */
+
+.swal_custom_cancel {
+ .button-cancel {
+   //border-radius: 4px !important;
+   //padding-top: 8px;
+   //outline: 0 !important;
+   //height: 40px;
+   //font-family: rubik-medium;
+   //font-style: normal;
+   //font-weight: 500;
+   //font-size: 15px;
+   //line-height: 21px;
+   //position: relative;
+   //padding-right: 25px;
+   //padding-left: 25px;
+   //color: #000;
+   //text-transform: capitalize;
+   //background: none;
+ }
+}
+
+.swal2-modal.my-alert {
+  border-radius: 0;
+  color: #333;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+.swal2-modal.my-alert .swal2-title {
+  color: #007cff;
+  text-transform: uppercase;
+}
+.swal2-modal.my-alert .swal2-styled {
+  font-size: 14px;
+}
+.swal2-modal.my-alert .swal2-styled.button-cancel {
+  background-color: transparent !important;
+  border-radius: 4px !important;
+  padding-top: 8px;
+  outline: 0 !important;
+  height: 40px;
+  font-family: rubik-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #000;
+  text-transform: capitalize;
+  background: none;
+  vertical-align: middle;
+}
+
+ .swal2-modal.my-alert .swal2-styled.button-green {
+   vertical-align: middle;
+ }
+ .swal2-modal.my-alert .swal2-styled.button-cancel:before {
+  //content: "";
+  //position: absolute;
+  //display: block;
+  //height: 2px;
+  //bottom: 0;
+  //background-color: #007cff;
+  //-webkit-transition: 0.3s ease-out;
+  //-moz-transition: 0.3s ease-out;
+  //-o-transition: 0.3s ease-out;
+  //transition: 0.3s ease-out;
+  //left: 50%;
+  //right: 50%;
+}
+.swal2-modal.my-alert .swal2-styled.button-cancel:after {
+  //content: "×";
+  //font-size: 20px;
+  //font-style: normal;
+  //position: relative;
+  //top: 2px;
+  //right: 10px;
+  //padding-left: 5px;
+  //background-color: transparent;
+  //width: 100%;
+}
+.swal2-modal.my-alert .swal2-styled.button-cancel:hover:before {
+   //left: 0;
+   //right: 3px;
+ }
+
+.swal2-modal.my-alert .swal2-styled:focus {
+  outline: 0;
+  box-shadow: none;
+}

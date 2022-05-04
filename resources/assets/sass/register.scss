@@ -1,0 +1,386 @@
+/* Page Register */
+.fa-arrow-left,
+.arrow-right {
+  display: inline-block;
+  width: 13px;
+  height: 10px;
+  background-size: contain;
+  background-image: url("/img/register/arrow_right.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-position: right;
+}
+.fa-arrow-left {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.login .button-green {
+  padding: 16px 32px;
+}
+.registration-page {
+  background: #fff;
+  h3 {
+    margin-bottom: 20px;
+  }
+  .auth_panel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 24px 15px;
+    flex-basis: 40%;
+    max-width: 640px;
+
+    .content-box {
+      padding: 25px 10px;
+    }
+  }
+  .g-recaptcha {
+    div {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+}
+.registration-page .license label {
+  font-size: 11px;
+}
+.registration-page.login {
+  background: transparent;
+}
+.registration-page.login .register-form {
+  padding: 0;
+}
+.registration-page.login .content-box {
+  background: #fff;
+  padding: 25px;
+}
+.registration-page.login .type-checkbox {
+  padding: 25px 30px;
+  margin-bottom: 0;
+}
+.registration-page.login .type-checkbox label:before {
+  top: 25px;
+  left: 0;
+}
+.registration-page.login .type-checkbox .btn-link {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  display: inline-block;
+}
+.registration-page.login .button-green {
+  display: block;
+  margin: auto;
+  width: auto;
+  min-width: 150px;
+  padding: 12px 35px;
+}
+.registration-page.login .social-btn-box a {
+  text-align: center;
+  font-size: 14px;
+  padding: 12px 15px 12px 54px;
+  width: auto;
+  display: block;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.registration-page.login .social-btn-box a:before {
+  font-size: 24px;
+}
+.registration-page .content-box__header {
+  padding-left: 0;
+}
+.registration-page .content-box__header p {
+  letter-spacing: 1px;
+}
+.registration-page .button-green {
+  padding: 16px 32px;
+}
+.registration-page .title-blue {
+  text-align: center;
+  margin-top: 40px;
+}
+.registration-page .item-profile {
+  padding: 54px 15px;
+}
+.registration-page .box-items div:last-child {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.registration-page .box-items > div:last-child {
+  padding-left: 54px;
+  padding-right: 54px;
+}
+.registration-page .item-profile .cover,
+.registration-page .cover-client {
+  min-height: 210px;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.registration-page .item-profile-person {
+  padding: 0 20px;
+  position: relative;
+}
+.registration-page .item-profile-person:after {
+  /*content: "or";*/
+  font-size: 20px;
+  position: absolute;
+  right: 90px;
+  bottom: -66px;
+}
+.registration-page .item-profile-person,
+.registration-page .item-profile-company {
+  display: inline-block;
+}
+.registration-page .item-profile-person .cover,
+.registration-page .cover-client {
+  background-image: url("/img/register/client_register.jpg");
+  background-size: auto 100%;
+}
+.registration-page .item-profile-company .cover {
+  background-image: url("/img/register/company_register.jpg");
+  background-size: 100% auto;
+}
+.registration-page .content-box__header p {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+}
+.registration-page .intl-tel-input.allow-dropdown {
+  display: block;
+}
+.registration-page .content-box__body-field.type-checkbox {
+  padding-top: 25px;
+  display: table;
+  margin: auto;
+}
+.registration-page .content-box__body-field.type-checkbox label {
+  cursor: pointer;
+  position: relative;
+}
+.registration-page .content-box__body-field.type-checkbox label:hover {
+  color: #688b92;
+}
+.registration-page .content-box__body-field .form-group {
+  position: relative;
+}
+.registration-page .content-box__body-field .form-group label {
+  font-size: 12px;
+  color: #87abb2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.registration-page .nav-tabs-register {
+  text-align: center;
+  border: none;
+  width: calc(100% + 200px);
+  right: 100px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .registration-page .nav-tabs-register {
+    width: 100%;
+    right: 0px;
+  }
+}
+.registration-page .nav-tabs-register > li {
+  float: none;
+  display: inline-block;
+}
+.registration-page .nav-tabs-register > li > a {
+  display: flex;
+  padding: 15px 25px;
+  font-size: 16px;
+  color: #333333;
+}
+.registration-page .nav-tabs-register > li > a .check {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #87abb2;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+.registration-page .nav-tabs-register > li > a:hover {
+  color: #333333;
+  background: transparent;
+  border-color: transparent;
+}
+.registration-page .nav-tabs-register > li.active > a {
+  border-color: transparent;
+}
+.registration-page .nav-tabs-register > li.active .check:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #87abb2;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.registration-page .register-form .social-btn-box {
+  padding: 50px 0px 10px;
+}
+.registration-page .register-form .social-btn-box > .btn {
+  display: block;
+  margin: 15px auto;
+}
+.registration-page .register-form .license-box {
+  position: relative;
+  padding: 30px 15px 0;
+}
+.registration-page .register-form .license-box .license {
+  position: relative;
+  display: table;
+  margin: auto;
+}
+.registration-page .register-form .content-box__body-submit {
+  padding: 25px 0;
+}
+.registration-page .register-form #file-upload .file-name {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+}
+.registration-page .register-form #file-upload .file-name span:first-child {
+  font-size: 30px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.registration-page .register-form #file-upload .button-green {
+  font-size: 10px;
+  padding: 10px 20px;
+  letter-spacing: 0.3px;
+}
+.registration-page .or {
+  text-align: center;
+  position: relative;
+  margin: 30px 0;
+}
+.registration-page .or:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background: #c3e7ee;
+  height: 1px;
+  z-index: 5;
+}
+@media (min-width: 768px) {
+  .registration-page .or {
+    margin: 0;
+  }
+  .registration-page .or:before {
+    top: 0;
+    button: 0;
+    left: 50%;
+    right: auto;
+    width: 1px;
+    height: 290px;
+  }
+  .registration-page .or:after {
+    top: 120px;
+    left: 25%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .registration-page .item-profile-person:after {
+    /*content: "or";*/
+    font-size: 20px;
+    position: absolute;
+    right: -56px;
+    bottom: 16px;
+  }
+  .registration-page .form-group .form-control {
+    padding-right: 14px;
+  }
+  .registration-page .box-items > div:first-child {
+    padding-right: 27px;
+  }
+  .registration-page .box-items > div:last-child {
+    padding-left: 27px;
+    //padding-right: 54px;
+  }
+  .registration-page .content-box__body-field.private-field:before {
+    left: auto;
+    top: 0;
+    right: -20px;
+    bottom: 0;
+    height: auto;
+    width: 1px;
+  }
+  .registration-page .content-box__body-field.private-field:after {
+    right: -34px;
+    left: auto;
+    bottom: auto;
+    top: 50%;
+  }
+  .registration-page .register-form .social-btn-box {
+    padding: 10px 0 10px 40px;
+  }
+  .registration-page .register-form .social-btn-box > .btn {
+    display: inline-block;
+    margin: 15px 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .registration-page .box-items > div:last-child {
+    padding-left: 10px;
+    padding-right: 54px;
+  }
+
+  .registration-page .content-box__body-field.private-field:before {
+    right: -40px;
+  }
+  .registration-page .content-box__body-field.private-field:after {
+    right: -52px;
+  }
+  .registration-page .register-form .social-btn-box {
+    padding: 10px 0 10px 0px;
+  }
+}
+@media (max-width: 767.999px) {
+  .registration-page .item-profile {
+    text-align: center;
+  }
+}
+.auth_wrap {
+  position: relative;
+  display: flex;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+
+.auth_panel_main {
+  flex-basis: 50%;
+}
+@media (max-width: 992px) {
+  .auth_panel {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+.auth_placeholder {
+  flex-basis: 60%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}

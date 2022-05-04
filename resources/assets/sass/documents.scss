@@ -1,0 +1,228 @@
+/* Page Documents */
+.documents-page .template_item {
+  box-shadow: 0 0 10px 0 rgba(143, 143, 143, 0.3);
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.documents-page .document_icon.PDF {
+  background: url("../../img/icon/pdf.svg");
+  background-size: 100%;
+}
+.documents-page .documents_list .document_icon_wrap {
+  width: 28px;
+  float: left;
+}
+.documents-page .templates_list .document_icon_wrap {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.documents-page .documents_list .document_icon {
+  width: 28px;
+  height: 32px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 12px;
+}
+.documents-page .templates_list .document_icon {
+  width: 100px;
+  height: 114px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 12px;
+  background-size: 100% auto;
+}
+.documents-page h5 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.documents-page .content-box__filter-date {
+  max-width: 225px;
+  margin-right: 30px;
+}
+.document_info {
+  float: left;
+  padding-left: 15px;
+}
+.documents_list .status_sign {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.documents_list .status_sign.sign {
+  background-color: #ffcc00;
+}
+.documents_list .status_sign.active {
+  background-color: #00e374;
+}
+.documents_list .actions a i {
+  color: #627d8b;
+  font-size: 16px;
+  margin-left: 15px;
+}
+.documents_list .actions {
+  padding-top: 25px;
+}
+.documents-list .date {
+  color: #333333;
+}
+/*adapted for site view. few styles was take from PDF style*/
+/*@import "../css/pdf.css";*/
+.template-page .btn-header {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.template-page .btn-header .row {
+  margin-left: -30px;
+}
+.template-page .btn-header .div {
+  margin-left: 0;
+}
+.template-page #order .header > div {
+  padding: 15px 20px;
+}
+.template-page .input {
+  font-size: 14px !important;
+  font-family: "opensans-regular";
+}
+.template-page #order .panel_item {
+  padding: 10px 0 10px 0;
+}
+.template-page #order .panel {
+  padding: 20px 10px 20px 10px;
+}
+.template-page #order .panel-title {
+  padding: 5px 10px;
+}
+.template-page .panel-body .label-block {
+  line-height: 24px;
+}
+.template-page #order .header {
+  padding: 10px 40px;
+}
+.template-page #order .header .number {
+  font-size: 20px;
+}
+.template-page #order .header .request, .template-page #order .header .slash, .template-page #order .header .from, .template-page #order .header .year, .template-page #order .header .ttn {
+  font-size: 26px;
+}
+.template-page #order .panel .title {
+  font-size: 25px;
+}
+.template-page .persons > tbody > tr > td {
+  font-size: 16px;
+}
+.template-page .panel-body .label-block {
+  font-size: 14px !important;
+  vertical-align: top;
+}
+.template-page .img_wrap {
+  margin-top: 0 !important;
+  width: 15px !important;
+  text-align: right;
+  float: left;
+  margin-right: 10px;
+}
+.template-page .img_wrap img {
+  height: 15px;
+}
+.template-page #order .input {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 0;
+  padding-left: 25px;
+  height: 40px !important;
+  line-height: 40px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+.template-page .row_address {
+  vertical-align: top;
+}
+.template-page .footer-title {
+  font-size: 26px;
+}
+.template-page #order .panel-part-4 table .wrapper, .template-page #order .panel-part-3 table .wrapper, .template-page #order .panel-part-2 table .wrapper, .template-page #order .panel-part-1 table .wrapper {
+  margin-bottom: 10px;
+}
+.template-page #order .panel-part-1 .label-cargo {
+  width: 40%;
+}
+.template-page #order .panel-part-1 .big {
+  width: 40%;
+  margin-left: 5px;
+}
+.template-page #order .panel-part-1 .big .input {
+  width: 45%;
+}
+.template-page #order .panel-part-1 .default .label-cargo {
+  width: 40%;
+  margin-left: 5px;
+}
+.template-page #order .panel-part-1 .default .input {
+  width: 45%;
+}
+.template-page #order .panel-part-2 .label-cargo {
+  width: 40%;
+}
+.template-page #order .panel-part-2 .pack-type {
+  width: 45%;
+}
+.template-page #order .panel-part-2 .temperature_mode {
+  width: 45%;
+}
+.template-page #order .panel-part-2 .quantity_of_packages {
+  width: 45%;
+}
+.template-page #order .panel-part-2 .hazard {
+  width: 45%;
+}
+.template-page #order .panel-part-3 .label-cargo {
+  width: 40%;
+}
+.template-page #order .panel-part-3 .transport-trailer-number {
+  width: 40%;
+  margin-bottom: 10px;
+}
+.template-page #order .panel-part-3 .transport-number {
+  width: 40%;
+}
+.template-page #order .panel-part-3 .loading_type {
+  width: 40%;
+  margin-bottom: 10px;
+}
+.template-page #order .panel-part-3 .rolling_stock_type {
+  width: 40%;
+  margin-bottom: 10px;
+}
+.template-page #order .panel-part-3 .name-2, .template-page #order .panel-part-3 .name-1 {
+  width: 50%;
+}
+.template-page #order .panel-part-3 .phone {
+  width: 50%;
+}
+.template-page #order .panel-part-4 .label-cargo {
+  width: 40%;
+}
+.template-page #order .panel-part-4 .payment_type {
+  width: 45%;
+}
+.template-page #order .panel-part-4 .payment_terms {
+  width: 45%;
+}
+.template-page #order .panel-part-4 .amount_plan {
+  width: 45%;
+}
+.template-page .btn-footer {
+  margin-top: 20px;
+}
+.template-page .btn-footer a {
+  margin-right: 20px;
+}

@@ -1,0 +1,117 @@
+$border-filter-radius: 4px;
+$border-filter-color-hover: #adadad;
+
+.filter-align__right {
+  text-align: right;
+}
+
+.filter-align__left {
+  text-align: left;
+}
+
+.filter-mr-2 {
+  margin-right: 10px;
+}
+
+.filter-ml-2 {
+  margin-left: 10px;
+}
+
+.content-box__filter {
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 18px;
+
+  // Filter date period
+  .filter-dates_period {
+    //width: 200px;
+    min-width: 200px;
+    border-color: transparent;
+    border-radius: $border-filter-radius;
+    box-shadow: none;
+
+    .filter-option {
+      color: inherit;
+
+      &:focus {
+        background-color: #fff;
+      }
+      &:hover {
+        color: #999;
+      }
+
+    }
+    .btn {
+      box-shadow: none;
+      &:hover {
+        background-color: #fff;
+        border-color: $border-filter-color-hover;
+        .filter-option {
+          color: #999;
+        }
+      }
+      //&:focus {
+      //  border-color: $border-filter-color-hover;
+      //}
+    }
+    .dropdown-toggle:focus {
+      border-color: $border-filter-color-hover !important;
+    }
+    .open {
+      .btn-default {
+       background-color: #fff;
+      }
+    }
+  }
+
+  // Input name with autocomplete
+  .filter-username_search {
+    background-color: #fff;
+    border-color: transparent;
+    border-radius: $border-filter-radius;
+
+    input {
+      padding-right: 20px;
+      box-shadow: none;
+      &:focus {
+        border-color: $border-filter-color-hover;
+      }
+      &:hover {
+        border-color: $border-filter-color-hover;
+      }
+    }
+    .autocomplete-result {
+      text-align: left;
+    }
+    #searchclear {
+      position: absolute;
+      right: 10px;
+      top: 16px;
+      //bottom: 0;
+      //height: 14px;
+      margin: auto;
+      font-size: 12px;
+      cursor: pointer;
+      color: #000000;
+    }
+  }
+
+  // Date range
+  //.content-box__filter-date {
+  //  display: block;
+  //  height: 40px;
+  //  background-color: #FFF;
+  //  line-height: 40px;
+  //  font-family: 'opensans-regular';
+  //}
+}
+
+@media (max-width: $point_sm) {
+  .btn-group-filter {
+    text-align: center;
+    width: 100%;
+    .bootstrap-select {
+        width: 100%!important;
+    }
+  }
+}

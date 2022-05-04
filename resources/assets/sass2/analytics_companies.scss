@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* container-drivers */
+.container-drivers {
+  width: 48.5%;
+  top: -225px;
+}
+.container-works {
+  margin-top: -8px;
+  width: 107.5%;
+}
+
+.container-city {
+  margin-left: -5px;
+  margin-top: -8px;
+  width: 107.5%;
+}
+
+.left-main {
+  width: 120%;
+  left: -20px;
+}
+.m {
+  width: 133%;
+  left: -30px;
+}
+
+.right-main {
+  right: 2px;
+}
+/* end container-drivers */
+
+/* style description 1-n block */
+.analytics-page .main-title {
+  height: 75px;
+  background-color: #ffffff;
+  padding: 13px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(31, 37, 45, 0.1);
+  position: relative;
+  margin-bottom: 10px;
+}
+.analytics-page .main-title .value {
+  font-size: 16px;
+  font-weight: bold;
+}
+.analytics-page .workstat_block_sm .value-trend {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+/* end analytics */
+
+/* description canvas */
+.right-main > .workstat_block > .col-sm-12 > .main-canvas > .desc-canvas {
+  top: 70px;
+  right: -21px;
+  position: absolute;
+}
+/* end canvas */
+
+.analytics-page .container-works .workstat-graphs {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}

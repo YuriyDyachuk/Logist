@@ -1,0 +1,60 @@
+/** Slick slider */
+.slick-list:after {
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  background-color: #f6fcff;
+  top: 0;
+  right: 0;
+}
+.slick-track {
+  margin-left: 0 !important;
+}
+.slick-disabled {
+  opacity: 0 !important;
+}
+.slick-prev,
+.slick-next {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  top: 0 !important;
+  bottom: 0;
+  height: auto !important;
+  -webkit-transform: translate(0, 0) !important;
+  -ms-transform: translate(0, 0) !important;
+  transform: translate(0, 0) !important;
+  width: 30px !important;
+  z-index: 10;
+}
+.slick-prev {
+  left: -20px !important;
+}
+.slick-next {
+  right: 11px !important;
+  background-color: #f6fcff !important;
+  box-shadow: 15px 0 0 #f6fcff;
+}
+.slick-prev:before,
+.slick-next:before {
+  content: '' !important;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-width: 2px;
+  border-style: solid;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.slick-prev:before {
+  border-color: transparent transparent #627D8B #627D8B;
+  margin: 10px;
+}
+.slick-next:before {
+  border-color: #627D8B #627D8B transparent transparent;
+  margin: 10px 5px;
+}

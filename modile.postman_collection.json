@@ -1,0 +1,198 @@
+{
+	"info": {
+		"name": "InnLogist",
+		"_postman_id": "aaef537f-5fb3-458c-ea6d-b4e35c48a5cd",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Order",
+			"description": "",
+			"item": [
+				{
+					"name": "All",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQ3LCJpc3MiOiJodHRwOi8vaW5uLWxvZ2lzdC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MTkyOTQxMjIsImV4cCI6MTUxOTI5NzcyMiwibmJmIjoxNTE5Mjk0MTIyLCJqdGkiOiI0djVTU0NheFowV2h6dm90In0.hnwq9WFJ_USJSNhyXO3tpi6LDdwES2NIvcmw2V4iwtg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://dev.inn-logist.com/api/v1/orders",
+							"protocol": "http",
+							"host": [
+								"dev",
+								"inn-logist",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"orders"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Show",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQ3LCJpc3MiOiJodHRwOi8vaW5uLWxvZ2lzdC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MTkyOTQxMjIsImV4cCI6MTUxOTI5NzcyMiwibmJmIjoxNTE5Mjk0MTIyLCJqdGkiOiI0djVTU0NheFowV2h6dm90In0.hnwq9WFJ_USJSNhyXO3tpi6LDdwES2NIvcmw2V4iwtg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://inn-logist/api/v1/orders/257",
+							"protocol": "http",
+							"host": [
+								"inn-logist"
+							],
+							"path": [
+								"api",
+								"v1",
+								"orders",
+								"257"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Progress update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQ3LCJpc3MiOiJodHRwOi8vaW5uLWxvZ2lzdC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MTkyOTQxMjIsImV4cCI6MTUxOTI5NzcyMiwibmJmIjoxNTE5Mjk0MTIyLCJqdGkiOiI0djVTU0NheFowV2h6dm90In0.hnwq9WFJ_USJSNhyXO3tpi6LDdwES2NIvcmw2V4iwtg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\tdata:[\r\n\t\t{\r\n\t\t\taddress:\"Киев, Украина, 02000\"\r\n\t\t\tcompleted:0\r\n\t\t\tdate:\"23/02/2018\"\r\n\t\t\tname:\"Загрузка\"\r\n\t\t\ttype:\"download\"\r\n\t\t\t\r\n\t\t},\r\n\t\t{\r\n\t\t\taddress:\"Минск, Беларусь\"\r\n\t\t\tcompleted:0\r\n\t\t\tdate:\"28/02/2018\"\r\n\t\t\tname:\"Выгрузка\"\r\n\t\t\ttype:\"upload\"\r\n\t\t}\r\n\t]\r\n}"
+						},
+						"url": {
+							"raw": "http://inn-logist/api/v1/progress/257",
+							"protocol": "http",
+							"host": [
+								"inn-logist"
+							],
+							"path": [
+								"api",
+								"v1",
+								"progress",
+								"257"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Document Create",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profile",
+			"description": "",
+			"item": [
+				{
+					"name": "Show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://inn-logist/api/v1/profile/10",
+							"protocol": "http",
+							"host": [
+								"inn-logist"
+							],
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"10"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"login\": \"Redvsv5\", \"password\": \"xKvl28rv\"}"
+				},
+				"url": {
+					"raw": "http://dev.inn-logist.com/api/v1/login",
+					"protocol": "http",
+					"host": [
+						"dev",
+						"inn-logist",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"login"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

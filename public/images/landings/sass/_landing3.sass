@@ -1,0 +1,515 @@
+.landing3
+
+	#hero
+		min-height: 680px
+
+		h1
+			margin-bottom: 39px
+			max-width: 200px
+
+		p
+			margin-bottom: 116px
+			+media-breakpoint-down(sm)
+				margin-bottom: 34px
+
+		.block
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			z-index: 2
+			position: relative
+
+		.see
+			margin-bottom: 0
+			margin-left: 30px
+			+media-breakpoint-down(sm)
+				margin: 22px auto 35px
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				justify-content: center
+
+			p
+				margin-bottom: 0!important
+
+		.hero_img
+			width: 100%
+			display: block
+			height: 500px
+	
+	#features
+
+		.bg2
+			width: 433px
+			height: 433px
+			top: 0
+
+		.container
+			padding-top: 55px
+			padding-bottom: 90px
+
+		h2
+			font-size: 48px
+			margin-bottom: 32px
+			text-align: left
+
+		p
+			flex: 14px
+			line-height: 1.8
+			text-align: left
+
+		.item
+			box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.06)
+			font-size: 16px
+			color: $texttitle
+			padding: 20px 15px
+			font-weight: bold
+			margin-bottom: 30px
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			font-family: $secondfont
+			letter-spacing: -0.256667px
+			+media-breakpoint-down(sm)
+				max-width: unset
+				text-align: left
+
+			svg
+				margin-bottom: 0
+				margin-right: 20px
+				display: block
+				width: 52px
+				height: 52px
+				min-width: 52px
+
+	.start
+		padding-top: 76px
+
+		h2
+			text-align: center
+			margin-bottom: 90px
+
+		.item
+
+			h3
+				margin-top: 11px
+
+	.banner
+		padding: 80px 0 150px
+
+	.banner__wrap
+		background-color: #00CF3E
+		padding: 50px 100px 50px 35px
+		box-shadow: 0px 11.6162px 29.0404px rgba(0, 0, 0, 0.1)
+		border-radius: 10px
+		position: relative
+
+		&:before
+			content: ""
+			background: linear-gradient(135deg, #00CF3E 0%, #00CF3E 100%)
+			mix-blend-mode: normal
+			opacity: 0.9
+			box-shadow: 0px 1.98363px 3.96725px rgba(0, 0, 0, 0.1)
+			backdrop-filter: blur(6.74007px)
+			border-radius: 9.91813px
+			transform: rotate(45deg)
+			display: block
+			width: 70px
+			height: 70px
+			position: absolute
+			right: -100px
+			top: -30px
+		&:after
+			content: ""
+			background: linear-gradient(135deg, #00CF3E 0%, #00CF3E 100%)
+			mix-blend-mode: normal
+			opacity: 0.9
+			box-shadow: 0px 1.98363px 3.96725px rgba(0, 0, 0, 0.1)
+			backdrop-filter: blur(6.74007px)
+			border-radius: 9.91813px
+			transform: rotate(45deg)
+			display: block
+			width: 50px
+			height: 50px
+			position: absolute
+			right: 0px
+			top: -70px
+
+	.banner__title
+		font-size: 43px
+		//color: #303144
+		color: #fff
+		letter-spacing: 0.02em
+		margin-bottom: 5px
+		+media-breakpoint-down(sm)
+			font-size: 28px
+
+	.banner__descr
+		font-size: 15px
+		color: #303144
+		line-height: 1.8
+		opacity: 0.66
+		margin-bottom: 60px
+		width: 70%
+		+media-breakpoint-down(sm)
+			width: 100%
+
+	.banner__btn
+		//background-color: #303144
+		background-color: #fff
+		//color: #fff
+		color: #303144
+		border-radius: 5px
+		box-shadow: 0px 10px 25px rgba(0, 124, 255, 0.1)
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		width: 225px
+		margin: 0 0 0 auto
+
+	.solutions
+
+		background-color: #F8F8FA
+		padding: 73px 0 50px
+		position: relative
+		+media-breakpoint-down(sm)
+			padding: 68px 0 38px
+
+		.bg2
+			position: absolute
+			right: 0
+			top: -40px
+			right: -120px
+			z-index: 0
+			width: 600px
+			height: 600px
+			border-radius: 40px
+			background: linear-gradient(127.82deg, #5ECB54 38.3%, #337DF7 93.7%)
+			display: block
+			transform: rotate(45deg)
+			opacity: .9
+			box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15)
+			+media-breakpoint-down(sm)
+				width: 155px
+				height: 155px
+
+		.bg3
+			position: absolute
+			width: 300px
+			height: 300px
+			background: linear-gradient(135deg, #32FBFC 0%, #3214F2 100%)
+			display: block
+			border-radius: 40px
+			transform: rotate(45deg)
+			box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1)
+			top: 194px
+			left: -100px
+			+media-breakpoint-down(sm)
+				height: 155px
+				width: 155px
+				left: auto
+				right: -100px
+				top: -50px
+				z-index: 0
+
+		.container
+			background-color: #fff
+			border-radius: 11px
+			padding-bottom: 86px
+			padding-left: 47px
+			padding-right: 47px
+			z-index: 1
+			position: relative
+			+media-breakpoint-down(sm)
+				padding: 0 15px
+
+			
+			h2
+				text-align: center
+				margin: 48px 0 20px
+				+media-breakpoint-down(sm)
+					text-align: left
+
+			p
+				text-align: center
+				max-width: 300px
+				margin: 0 auto 60px
+				+media-breakpoint-down(sm)
+					text-align: left
+					margin-bottom: 50px
+
+			.sr
+				position: relative
+				padding-bottom: 45px
+				padding-top: 45px
+				&:after
+					content: ""
+					width: 100%
+					position: absolute
+					left: 0
+					right: 0
+					background-color: #F6F6F6
+					height: 1px
+					display: block
+					bottom: 0
+
+				&:last-child
+					&:after
+						display: none
+
+			.ul
+				list-style: none
+				padding: 0
+				margin: 0 auto
+				display: block
+				max-width: 340px
+
+				li
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					padding-left: 20px
+					position: relative
+					font-size: 18px
+					font-weight: bold
+					color: $texttitle
+
+					&:not(:last-child)
+						margin-bottom: 27px
+
+					&:before
+						content: ""
+						width: 5px
+						height: 5px
+						border-radius: 50%
+						background-color: #EB5757
+						display: block
+						position: absolute
+						left: 0
+						top: 10px
+						+media-breakpoint-down(sm)
+							top: 6px
+
+			.pr_item
+				font-family: $secondfont
+				+media-breakpoint-down(sm)
+					margin-bottom: 20px
+
+				h4
+					color: #EB5757
+					text-align: center
+					margin-bottom: 50px
+
+				li
+					+media-breakpoint-down(sm)
+						font-size: 12px
+
+			.sl_item
+				font-family: $secondfont
+				font-weight: normal
+
+				h4
+					color: #00CF3E
+					text-align: center
+					margin-bottom: 50px
+
+				li
+					font-weight: normal
+					font-size: 16px
+					&::before
+						background-color: #00CF3E
+
+					+media-breakpoint-down(sm)
+						font-size: 12px
+
+	.web
+		padding-top: 84px
+
+		.mockup
+			top: 84px
+
+
+	#order-block
+		font-family: Gilroy
+		font-style: normal
+		font-weight: 500
+
+		h4
+			font-weight: bold
+			font-size: 18px
+			line-height: 150%
+			color: #303144
+
+		.title-text
+			display: flex
+			width: 100%
+			justify-content: center
+			padding-bottom: 10px
+
+			.route-info
+				width: 30%
+				padding-left: 80px
+
+			.cargo-info
+				width: 33%
+				padding-left: 95px
+
+			.transport-info
+				width: 30%
+				text-align: left
+
+		.footer-info
+			font-style: normal
+			font-size: 18px
+			line-height: 150%
+			/* identical to box height, or 27px */
+			color: #68738B
+			text-align: center
+			padding-top: 40px
+
+		.footer-line
+			margin-top: 50px
+
+			hr
+				border: 1px solid #F6F6F6
+
+		.content-box__inform
+			background: #FFFFFF
+			/* Landing */
+			box-shadow: 0 5px 25px rgba(0, 0, 0, 0.06)
+			border-radius: 6px
+			/* Inside Auto Layout */
+			flex: none
+			margin: 0 20px 20px
+			text-align: center
+			min-height: 150px
+			height: auto
+
+			.content-box__row
+				height: 100%
+
+				.row
+					position: relative
+				.info-city_in
+					padding: 30px 0 45px 25px
+				.info-city_to
+					padding-left: 25px
+				.info-cargo
+					padding: 30px 0 45px
+				.info-transport
+					padding: 30px 0 45px
+
+			span
+				font-size: 18px
+				line-height: 150%
+				/* identical to box height, or 27px */
+				color: #000000
+
+			.line-map
+				position: absolute
+				left: 7%
+				top: 20px
+				height: 85%
+				width: 2px
+				display: flex
+				flex-wrap: wrap
+				align-content: space-between
+				background-color: #ebebeb
+				bottom: 0
+				margin: auto
+
+			.line-map > div
+				width: 3px
+				height: 3px
+				position: relative
+
+			.line-map .point-download:before
+				width: 20px
+				height: 20px
+				background: url(/images/svg/pin-blue.svg) 50% no-repeat #fff
+				left: -9px
+				top: 0
+
+			.line-map .point-upload:before
+				width: 20px
+				height: 20px
+				background: url(/images/svg/pin-green.svg) 50% no-repeat #fff
+				left: -9px
+				top: -16px
+
+			.line-map>div:before
+				content: ""
+				display: inline-block
+				width: 8px
+				height: 8px
+				position: absolute
+				top: -3px
+				left: -3px
+
+			.inform-order
+				padding: 30px 0 30px 30px
+				display: flex
+				justify-content: flex-start
+				flex-direction: column
+				align-items: baseline
+
+				.label-font
+					font-size: 18px
+					line-height: 150%
+					color: #68738B
+
+				div:nth-last-child(-n+4)
+					padding-top: 20px
+
+
+
+			.additional_cargo span
+				align-items: center
+				background: #F2F7FA
+				bottom: 0
+				border-radius: 10px 0 0 0
+				border-bottom-right-radius: 5px
+				color: #000000
+				display: flex
+				font-size: 18px
+				justify-content: center
+				height: 50px
+				line-height: 150%
+				position: absolute
+				right: 0
+				width: 107px
+
+			.additional-cargo_plus:after
+			  content: ""
+			  width: 6px
+			  height: 6px
+			  background: #1e53ff
+			  position: absolute
+			  left: 25px
+			  top: 20px
+			  bottom: 0
+			  margin: auto
+			  border-radius: 50%
+
+			.chevron-up
+				position: absolute
+				right: 4%
+				top: 23%
+				cursor: pointer
+
+			.map-container #map
+				height: 250px
+

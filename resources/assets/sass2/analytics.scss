@@ -1,0 +1,450 @@
+/* Page Analytics */
+.analytics-page {
+  /* Page Drivers*/
+  /* Page Logistics*/
+  h2 {
+    //font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn-append {
+    border: 0;
+  }
+
+  // Analytics GPS Page
+  .analytics-gps-page {
+    .gps_block {
+      margin-bottom: 20px;
+      .gps_block_move {
+        left: -8px;
+        top: calc(50% - 6px);
+      }
+      .gps_block_open {
+        position: absolute;
+        display: block;
+        background-image: url('../images/svg/icon_open.svg');
+        width: 14px;
+        height: 14px;
+        background-size: 100% 100%;
+        top: 10px;
+        right: 20px;
+      }
+      .gps_block_inner {
+        background-color: #FFFFFF;
+        padding-left: 25px;
+        padding-right: 25px;
+        .gps_title {
+          color: #8798AD;
+          font-family: 'rubik-regular';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          text-transform: uppercase;
+          border-bottom: 1px solid #F2F2F2;
+          margin-bottom: 20px;
+          padding-top: 20px;
+          padding-bottom: 15px;
+          letter-spacing: 2px;
+          .gps_title_value {
+            font-size: 28px;
+            color: #000000;
+            position: absolute;
+            right: 42px;
+            top: 10px;
+            text-transform: lowercase;
+            letter-spacing: -1px;
+          }
+        }
+      }
+    }
+  }
+
+  .form-analytics-import {
+    .dropdown-menu {
+      left: 14px;
+      padding-top: 15px;
+      .dropdown-item {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.analytics-page .grey {
+  color: grey !important;
+}
+.analytics-page .border-grey {
+  border-left: 4px solid grey !important;
+}
+.analytics-page input.inputDaterangepicker {
+  background-image: url(/main_layout/images/sprite.png);
+  background-position: right -4px !important;
+  background-repeat: no-repeat;
+}
+.analytics-page .page-menu-filter-nav {
+  margin-bottom: 20px;
+}
+.analytics-page .page-analytics-filter-nav {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  /*background-color: #FFF;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+//.analytics-page .page-analytics-filter-nav .filter-username {
+//  width: 45% !important;
+//}
+//.analytics-page .page-analytics-filter-nav .filter-username input {
+//  padding-right: 30px;
+//  width: 100%;
+//}
+//.analytics-page .page-analytics-filter-nav .filter-dates_period {
+//  width: 45% !important;
+//}
+//.analytics-page .page-analytics-filter-nav #searchclear {
+//  position: absolute;
+//  right: 10px;
+//  top: -10px;
+//  bottom: 0;
+//  height: 14px;
+//  margin: auto;
+//  font-size: 18px;
+//  cursor: pointer;
+//  color: #000000;
+//}
+//.analytics-page .bootstrap-select.form-control:not([class*=col-]) {
+//  width: 90%;
+//}
+.analytics-page .bootstrap-select .filter-option {
+  color: #999;
+}
+.analytics-page .bootstrap-select .btn {
+  /*background-color: #f2f7fa!important;*/
+  /*border: 1px solid #7fbdff;*/
+}
+.analytics-page #formAnalyticsFiltersCountry .btn {
+  background-color: #f2f7fa;
+  border: none;
+  box-shadow: none;
+}
+.analytics-page input.form-control {
+  background-color: #fff;
+  /*background-color: #f2f7fa;
+  border: 1px solid #7fbdff;*/
+}
+.analytics-page .content-box__filter-input {
+  /*background-color: #f2f7fa!important;
+  border: 1px solid #7fbdff!important;*/
+  height: inherit;
+  /*border-radius: 5px;*/
+}
+.analytics-page .content-box__filter-input input {
+  /*background-color: #f2f7fa;*/
+}
+.analytics-page .table-orders th {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: "rubik-medium";
+}
+.analytics-page .table-orders .name_status {
+  margin-bottom: 10px;
+}
+.analytics-page .table-orders .analytics_status_wrapper {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+//.analytics-page .table-orders .analytics_status_wrapper .analytics_status {
+//  color: #ffffff;
+//  padding: 5px 10px;
+//  text-align: center;
+//  border-radius: 7px;
+//}
+//.analytics-page .table-orders .analytics_status_wrapper .analytics_status__active {
+//  background-color: #00cf3e;
+//}
+//.analytics-page .table-orders .analytics_status_wrapper .analytics_status__planning {
+//  background-color: #f2cf1b;
+//}
+//.analytics-page .table-orders .analytics_status_wrapper .analytics_status__canceled {
+//  background-color: #ff0000;
+//}
+//.analytics-page .table-orders .analytics_status_wrapper .analytics_status__completed {
+//  background-color: #007cff;
+//}
+.analytics-page .table {
+  background-color: #ffffff;
+}
+.analytics-page .table__legend td {
+  border: none;
+}
+//.analytics-page .analytics-driver-page .testimonail {
+//  background-color: #ffffff;
+//  padding: 20px;
+//}
+//.analytics-page .analytics-driver-page .testimonail .testimonail_single {
+//  border-top: 1px solid #f3f5f6;
+//  padding-top: 10px;
+//  margin-top: 10px;
+//}
+//.analytics-page .analytics-driver-page .testimonail .testimonail_single .testimonail_single__name {
+//  color: #94b0f5;
+//}
+//.analytics-page .analytics-driver-page .testimonail .checked {
+//  color: orange;
+//}
+.analytics-page .analytics-driver-page .btn-append {
+  display: inherit;
+  padding: 0;
+  background: none;
+}
+.analytics-page .analytics-driver-page .modal {
+  text-align: center;
+  padding: 0 !important;
+}
+.analytics-page .analytics-driver-page .modal input.form-control {
+  background-color: #f2f7fa;
+  border: inherit;
+}
+.analytics-page .analytics-driver-page .modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+.analytics-page .analytics-driver-page .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.analytics-page .analytics-companies-page .bootstrap-select {
+  margin: 0;
+  height: 35px;
+  margin-top: -5px !important;
+}
+.analytics-page .analytics-companies-page .bootstrap-select .btn {
+  height: 35px;
+}
+.analytics-page .workstat_block {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.analytics-page .workstat_block .workstat-graph {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+.analytics-page .workstat_block .workstat-row {
+  border-top: 1px solid #f3f5f6;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.analytics-page .workstat_block .title-col {
+  text-transform: uppercase;
+}
+.analytics-page .workstat_block .value-col {
+  font-size: 16px;
+  /*.distance {
+    color: #94b0f5;
+  }
+  .liter {
+    color: #ff271a;
+  }
+  .money_value {
+  }
+  .hours {
+    color: #fe8900;
+  }*/
+}
+.analytics-page .workstat_block .value-col .value {
+  position: absolute;
+  right: 20px;
+}
+.analytics-page .workstat_block .value-col .money_value {
+  text-transform: lowercase;
+}
+.analytics-page .workstat_block .value-col .plus {
+  color: #00cf3e;
+  position: absolute;
+  right: 0;
+  width: 30px;
+}
+.analytics-page .workstat_block_sm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(31, 37, 45, 0.1);
+  position: relative;
+  margin-bottom: 20px;
+}
+.analytics-page .workstat_block_sm .value {
+  font-size: 16px;
+  font-weight: bold;
+}
+.analytics-page .workstat_block_sm .value-trend {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+.analytics-page .workstat-green {
+  border-left: 4px solid #00cf3e;
+}
+.analytics-page .workstat-red {
+  border-left: 4px solid #ff0000;
+}
+.analytics-page .value-trend-green {
+  color: #00cf3e;
+}
+.analytics-page .value-trend-red {
+  color: #ff0000;
+}
+.analytics-page .value-green {
+  color: #00cf3e;
+}
+.analytics-page .value-blue {
+  color: #007cff;
+}
+.analytics-page .value-yellow {
+  color: #ffcc00;
+}
+.analytics-page .value-grey {
+  color: #3b3b3b;
+}
+.analytics-page .value-red {
+  color: #ff271a;
+}
+
+.analytics-page {
+  .testimonail {
+    h2 {
+      margin-left: 15px;
+    }
+    .testimonail-rating {
+      margin-top: 20px;
+      margin-left: 15px;
+    }
+  }
+}
+
+.table-analytics__wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 20px;
+}
+
+// Analytics import pdf-excel - dropDown
+.flex-box-form {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px!important;
+}
+
+// Analytics desktop [deals/logistics]
+.wrap-id > .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.box-wrap {
+  background-color: #FFF;
+  margin-bottom: 15px;
+  margin-left: 16px;
+  margin-right: 15px;
+}
+
+.wrap-id > .container > .sum {
+  font-family: rubik-medium;
+  color: #007cff;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-order .small-size {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 3px!important;
+}
+
+.name_status {
+  line-height: 1.4!important;
+}
+
+.wrap-left {
+  margin-left: -15%!important;
+}
+
+@media (max-width: $point_sm) {
+  .workstat_block {
+    margin-right: -15px!important;
+  }
+}
+
+@media (max-width: 767.999px){
+  .card-order > .row > div {
+    font-weight: 400!important;
+  }
+}
+
+@media (max-width: 767.999px) {
+  .card-order > .row > div:nth-of-type(4) {
+    //max-width: 45% !important;
+    margin-left: 15px;
+  }
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+}
+
+// Analytics desktop [deals/logistics]
+@media all and (max-width: $table-analytics) {
+  .table-wrap {
+    display: none;
+  }
+
+  // button company, deals, logistics, drivers
+  .filter-align__right > form > .flex-box-form > .btn {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4px!important;
+    height: 25px!important;
+    font-weight: 300!important;
+    font-size: 13px!important;
+    line-height: 15px!important;
+    color: #fff;
+  }
+
+  // button logistics styles
+  .filter-align__right > form > .flex-box-form > .wrap-size {
+    font-size: 10px !important;
+    line-height: 16px !important;
+  }
+
+  // button deals || drivers styles
+  .filter-align__right > form > .wrap-import {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px!important;
+    float: initial;
+  }
+}
+
+// Analytics desktop mobile [deals/logistics]
+@media all and (min-width: $table-analytics-mobile) {
+  .content-wrap {
+    display: none;
+  }
+
+  .flex {
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .card-order [class^=marker-] {
+    display: block;
+  }
+}

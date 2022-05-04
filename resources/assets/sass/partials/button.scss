@@ -1,0 +1,18 @@
+.btn {
+  font-family: opensans-regular;
+  letter-spacing: 1px;
+  border-radius: .25em !important;
+  border: none !important;
+  outline: 0 !important;
+  max-height: 52px;
+}
+
+.button-grey {
+  color:#fff;
+  background-color: #c6c6c6;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #ababab;
+  }
+}
+

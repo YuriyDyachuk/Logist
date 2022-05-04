@@ -1,0 +1,77 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+//@import "~bootstrap/scss/bootstrap";
+
+//@import "../../../public/bower-components/bootstrap/dist/css/bootstrap.min.css";
+//@import "../../../public/bower-components/font-awesome/css/font-awesome.min.css";
+//@import "../../../public/plugins/phone_input/css/intlTelInput.css";
+//@import "../../../public/bower-components/bootstrap-select/dist/css/bootstrap-select.min.css";
+//@import "../../../public/bower-components/animate.css/animate.min.css";
+//@import "../../../public/bower-components/sweetalert2/dist/sweetalert2.min.css";
+//@import "../../../public/bower-components/simplelightbox/dist/simplelightbox.min.css";
+//@import "../../../public/bower-components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css";
+//@import "../../../public/bower-components/jquery-eu-cookie-law-popup/css/jquery-eu-cookie-law-popup.css";
+
+@import "cssload";
+
+@import "global";
+
+@import "partials/inputs";
+@import "partials/button";
+
+@import "fonts";
+
+@import "top-bar";
+
+@import "partials/content";
+@import "partials/filters";
+
+/* Page Register */
+@import "register";
+
+/* Page Login */
+@import "login";
+
+/* Page Profile */
+@import "profile";
+
+/* Page Orders */
+@import "orders";
+
+/* Page Orders */
+@import "transports";
+
+/* Page Clients */
+@import "clients";
+
+/* Page Location */
+@import "locations";
+
+/* Page Payment */
+@import "payment";
+
+/* Page Analytics */
+@import "analytics";
+
+/* Page Documents */
+@import "documents";
+
+/* Page Settings */
+@import "settings";
+
+/* Tutorials modals */
+@import "tutorials";
+
+@import "svg.css";
+
+@import "style";
+
+@import "response";
+
+

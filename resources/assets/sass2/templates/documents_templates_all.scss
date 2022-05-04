@@ -1,0 +1,2238 @@
+/* Page Documents */
+
+.content-box.template-page {
+  #transport-cargo_tables {
+    background: #FFFFFF;
+    font-family: Rubik-regular !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    min-height: 700px;
+    width: 100%;
+
+    .fonts-span__color {
+      color: #828282;
+    }
+  }
+
+  .resize {
+    width: 100%;
+    border-style: hidden;
+    border-collapse: collapse;
+
+    tr:first-child {
+      height: 40px;
+      border-bottom: 1px solid #BECFDC;
+
+      font-family: Rubik-regular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 15px;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      color: #a7a5a5;
+    }
+
+    #table-row {
+      height: 30px;
+      border-bottom: 1px solid #BECFDC;
+    }
+
+    & th {
+      text-align: center;
+      padding-left: 2px;
+    }
+
+    td {
+      font-family: Rubik-regular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 150%;
+      color: #323232;
+      text-transform: none;
+      padding-left: 5px;
+      text-align: center;
+    }
+  }
+
+  .center-block > .row-1 {
+    display: flex;
+
+    & .border-bottoms {
+      width: 33%;
+    }
+
+    .section-row-bottom {
+      width: 22%;
+    }
+
+    & #border_bottoms {
+      width: 100%;
+      float: none;
+    }
+
+    & #border_bottoms2 {
+      width: 100%;
+      float: none;
+    }
+
+    & #border_bottoms:before {
+      position: absolute;
+      content: '';
+      /* width: 20%; */
+      min-width: 28%;
+      border-bottom: 0.3px solid #323232;
+      margin-top: 20px;
+    }
+
+    & #border_bottoms2:before {
+      position: absolute;
+      content: '';
+      /* width: 20%; */
+      min-width: 24%;
+      border-bottom: 0.3px solid #323232;
+      margin-top: 20px;
+    }
+
+    & #border_bottoms3:before {
+      position: absolute;
+      content: '';
+      /* width: 20%; */
+      min-width: 26%;
+      border-bottom: 0.3px solid #323232;
+      margin-top: 20px;
+    }
+  }
+
+  .inform-payment__check {
+    & div:first-child {
+      position: relative;
+      top: -10px;
+    }
+  }
+
+  .radio-button {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+  }
+
+  #table-content {
+    width: 100%;
+  }
+
+  .block-fix_inform-pay {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: auto;
+
+    &__title {
+      float: left;
+      left: 20px;
+      position: relative;
+      top: 15px;
+    }
+
+    &__logos {
+      width: 160px;
+    }
+
+    &__qr-logos {
+      float: right;
+      left: 0;
+      position: relative;
+      top: 0;
+    }
+
+    &__qr-images {
+      width: 100px;
+    }
+  }
+
+  input.text-author {
+    width: 100%;
+    position: relative;
+    top: -21px;
+    color: #323232;
+    border: none;
+    height: 18px;
+
+    //
+    font-family: Rubik-regular !important;
+    font-size: 15px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+  }
+
+  .title-content-fonts {
+    color: #007CFF;
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    line-height: 150%;
+  }
+
+  .lines {
+    margin-left: 20px;
+
+    &__cargo-width {
+      float: left;
+      min-width: 30%;
+      width: 35%;
+    }
+
+    &__shipper-width {
+      float: left;
+      min-width: 30%;
+    }
+
+    &__bottom {
+      border-bottom: 1px solid #828282;
+      margin: 30px 0 50px 0;
+      padding-bottom: 3px;
+      width: 70%;
+    }
+  }
+
+  .panel-textarea {
+    background: #FFF;
+    border: 1px solid #BECFDC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 120px;
+    margin: 0 15px 20px 15px;
+    /*width: 100%;*/
+
+    &__title {
+      color: #05195B;
+      font-family: rubik-regular;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: normal;
+      height: 9px;
+      left: 9px;
+      letter-spacing: 0.2px;
+      line-height: 9px;
+      position: relative;
+      text-transform: uppercase;
+      top: 10px;
+    }
+
+    &__style {
+      background: #ffffff !important;
+      /*color: #323232!important;
+      font-family: rubic-regular!important;
+      font-size: 15px!important; /* 15px normal page */
+      height: 100%;
+      margin: -9px 0 0 0;
+      padding-top: 30px;
+
+    }
+  }
+
+  .info-orders {
+    float: left;
+    margin: 30px 0 0 10px;
+    width: 40%;
+
+    &__length_block {
+      align-items: center;
+      display: flex;
+      float: left;
+      margin: 0 0 15px;
+      padding-right: 30px;
+      width: 100%;
+
+      & span {
+        min-width: 174px;
+      }
+    }
+  }
+
+  .info-orders-right {
+    float: left;
+    margin: 29px 0 0 10px;
+    width: 58%;
+
+    &__length_block {
+      display: flex;
+      align-items: center;
+      margin: 0 0 13px;
+      padding-right: 5px;
+      width: 100%;
+
+      & span {
+        min-width: 122px;
+      }
+    }
+  }
+
+  .inputs-info__style {
+    border: 0.5px solid #B0BAC9;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #323232 !important;
+    height: 20px;
+    width: 100%;
+  }
+
+  .font-style {
+    font-family: Rubik-regular !important;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 9px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+
+    &__dop {
+      text-transform: none;
+    }
+  }
+
+  #inform-cargo {
+    height: 145px;
+  }
+
+  .info-cargo {
+
+    &__left {
+      display: flex;
+      float: left;
+      margin: 30px 0 0 9px;
+      width: 45%;
+    }
+
+    &__plane-tonnage {
+      float: left;
+      width: 49%;
+      padding-right: 30px;
+
+      & div:nth-child(-n+3) {
+        display: flex;
+        margin-bottom: 15px;
+
+        & span {
+          min-width: 54px;
+        }
+      }
+    }
+
+    &__plane-length {
+      float: left;
+      width: 49%;
+
+      & div:nth-child(-n+3) {
+        display: flex;
+        margin-bottom: 15px;
+
+        & span {
+          min-width: 65px;
+        }
+      }
+    }
+
+    .info-cargo-right {
+      float: left;
+      margin: 30px 0 0;
+      padding: 0 0 0 70px;
+      width: 53.8%;
+
+      &__count-seats {
+        display: flex;
+        margin: 0 0 15px;
+        padding-right: 3px;
+        width: 100%;
+
+        & span {
+          min-width: 200px;
+        }
+      }
+
+      &__hazard-class {
+        display: flex;
+        margin: 0 0 15px;
+        padding-right: 3px;
+        width: 100%;
+
+        & span {
+          min-width: 130px;
+        }
+      }
+
+      .info-card {
+        display: flex;
+        padding-right: 3px;
+
+        &__type-packaging {
+          display: flex;
+          float: left;
+          padding-right: 30px;
+          width: 55%;
+
+          & span {
+            min-width: 106px;
+          }
+        }
+
+        &__t-mode {
+          display: flex;
+          padding-left: 20px;
+          width: 45%;
+
+          & span {
+            min-width: 68px;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  #inform-transport {
+    float: left;
+    height: 190px;
+    /*margin: 0 0 20px 18px;*/
+    width: 100%;
+
+    .driver-inform {
+      margin: 31px 9px 0;
+      padding-right: 4px;
+      width: 98%;
+
+      &__full-name {
+        display: flex;
+        width: 100%;
+
+        & span {
+          min-width: 113px;
+        }
+      }
+
+      &__number-phone {
+        margin-bottom: 15px;
+        display: flex;
+        width: 100%;
+
+        & span {
+          min-width: 113px;
+        }
+      }
+    }
+
+    .auto-inform {
+      float: left;
+      margin: 15px 0 0 9px;
+      padding-right: 30px;
+      width: 49%;
+
+      &__type-auto {
+        margin-bottom: 15px;
+        display: flex;
+
+        & span {
+          min-width: 90px;
+        }
+      }
+
+      &__number-car {
+        display: flex;
+
+        & span {
+          min-width: 90px;
+        }
+      }
+    }
+
+    .trailer-inform {
+      padding-right: 4px;
+      width: 49%;
+
+      &__type-loading {
+        margin: 15px 0;
+        display: flex;
+
+        & span {
+          min-width: 118px;
+        }
+      }
+
+      &__numb-trailer {
+        display: flex;
+
+        & span {
+          min-width: 118px;
+        }
+      }
+    }
+
+  }
+
+  #inform-payment {
+    float: right;
+    height: 100px;
+    /*margin: 0 18px 0 0;
+    width: 96.5%;*/
+
+    .inform-payment {
+      margin: 25px 0 0;
+      padding-right: 4px;
+      width: 99%;
+
+      &__check {
+        margin: 0 0 15px 10px;
+        display: flex;
+
+        & span {
+          min-width: 122px;
+        }
+      }
+
+    }
+
+    .inform-type-sum {
+      margin: 0 0 15px 10px;
+
+      &__count-sum {
+        width: 45%;
+        display: flex;
+        float: left;
+        padding-right: 15px;
+
+        & span {
+          min-width: 53px;
+        }
+      }
+
+      &__type-pay {
+        float: left;
+        width: 55%;
+        display: flex;
+
+        & span {
+          min-width: 89px;
+        }
+      }
+    }
+
+  }
+
+  #inform-comment {
+    float: right;
+    height: 80px;
+    /*margin: 10px 18px 0 0;
+    width: 96.5%;*/
+
+    .comments-text {
+      margin: 20px 0 0 10px;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+  #containers-carrier {
+    float: left;
+    width: 100%;
+
+    #carrier-1 {
+      height: auto;
+      /*margin-left: 18px;
+      margin-right: 12px;*/
+
+      .panel-textarea__title {
+        color: #007CFF;
+      }
+    }
+
+    #carrier-2 {
+      height: auto;
+      /*margin-right: 18px;*/
+
+      .panel-textarea__title {
+        color: #007CFF;
+      }
+    }
+
+    .inform-carrier {
+      margin-left: 9px;
+      margin-top: 50px;
+      width: 97%;
+
+      & .font-carrier {
+        padding-bottom: 10px;
+        font-weight: 600;
+      }
+
+      &__legal_address-nds {
+        display: flex;
+
+        & span {
+          min-width: 85px;
+        }
+      }
+
+      &__rs-phone {
+        display: flex;
+
+        & span {
+          min-width: 35px;
+        }
+      }
+
+      &__code_mfo-inn {
+        display: flex;
+
+        & span {
+          min-width: 42px;
+        }
+      }
+
+      &__address_post {
+        display: flex;
+
+        & span {
+          min-width: 130px;
+        }
+      }
+
+      &__code-edrpou {
+        display: flex;
+
+        & span {
+          min-width: 99px;
+        }
+      }
+
+    }
+  }
+
+  #containers-carrier_2 {
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-left: 15px;
+
+    .block-carrier_2 {
+      background: #FFFFFF;
+      border: 1px solid #BECFDC;
+      border-radius: 4px;
+      box-sizing: border-box;
+      display: -ms-flexbox;
+      display: flex;
+      float: left;
+      height: auto;
+      /*margin-left: 18px;*/
+      width: 100%;
+
+      .people-success {
+        margin-left: 9px;
+        width: 100%;
+
+        & .span-dont-weight {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  #containers-carrier_3 {
+    display: flex;
+    width: 100%;
+    float: left;
+    margin-left: 15px;
+
+    .block-carrier_2 {
+      background: #FFFFFF;
+      border: 1px solid #BECFDC;
+      border-radius: 4px;
+      box-sizing: border-box;
+      display: -ms-flexbox;
+      display: flex;
+      float: left;
+      height: auto;
+      width: 100%;
+
+      .people-success {
+        margin-left: 9px;
+        width: 100%;
+
+        & .span-dont-weight {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+
+  .lines-cargos {
+    margin: 40px 0 0 20px;
+
+    .cargo-width {
+      float: left;
+      min-width: 25%;
+      width: 25%;
+    }
+
+    &__bottom {
+      border-bottom: 1px solid #828282;
+      margin: 30px 0 50px 0;
+      padding-bottom: 3px;
+      width: 90%;
+    }
+  }
+
+  #templates4 {
+    display: flex;
+    margin-left: 10px;
+
+    .info-orders {
+      display: flex;
+      flex-direction: column;
+      float: left;
+      margin-top: 30px;
+      width: 47%;
+
+      & span {
+        min-width: 125px;
+      }
+    }
+
+    .info-orders-right {
+      display: flex;
+      flex-direction: column;
+      float: left;
+      margin-top: 30px;
+      padding-right: 3px;
+      width: 53%;
+
+      & span {
+        min-width: 168px;
+      }
+    }
+  }
+
+  .inform-transport-template4 {
+    height: auto !important;
+  }
+
+  #inform-payment-template4 #inform-payment {
+    float: right;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    width: 96%;
+
+    .three-template4-block {
+      width: 80%;
+      margin-top: -27px;
+
+      .inform-driver {
+        display: flex;
+        float: left;
+        margin: 15px 0 0 10px;
+        width: 98%;
+
+        & span {
+          min-width: 178px;
+        }
+      }
+    }
+
+    .three-template4-block span {
+      min-width: 130px;
+    }
+  }
+
+  #block-templates4 .info-orders {
+    width: 100%;
+
+    &__length_block {
+      width: 62%;
+    }
+
+    &__length_block:nth-child(2) {
+      width: 22%;
+
+      & span {
+        min-width: 105px;
+      }
+    }
+
+    &__length_block:last-child {
+      width: 16%;
+
+      & span {
+        min-width: 38px;
+      }
+    }
+
+    & span {
+      min-width: 388px;
+    }
+  }
+
+  .comments-text {
+    display: flex;
+    margin: 20px 0 0 9px;
+  }
+
+  .one-block #containers-carrier_2 .block-carrier_2 {
+    flex-direction: column;
+
+    & .people-success {
+      margin-left: 9px;
+      width: 100%;
+      margin-top: 30px;
+    }
+  }
+
+  .two-block {
+    min-height: 146px !important;
+    height: auto !important;
+    width: 100%;
+  }
+
+  .three-block {
+    min-height: 146px !important;
+    height: auto !important;
+  }
+
+  .cargo-confirm {
+    & #containers-carrier_3 {
+      width: 100%;
+    }
+  }
+
+  /* Radio button */
+  .radio-fonts {
+    font-size: 10px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    color: #323232;
+    text-transform: none !important;
+  }
+
+  $radioSize: 11px;
+  $radioBorder: #D1D7E3;
+  $radioActive: #5D9BFB;
+
+  .radio {
+    margin: 8px 0;
+    display: block;
+    cursor: pointer;
+
+    input {
+      display: none;
+
+      & + span {
+        line-height: $radioSize;
+        height: $radioSize;
+        padding-left: $radioSize;
+        display: block;
+        position: relative;
+        text-transform: lowercase;
+
+        &:not(:empty) {
+          padding-left: $radioSize + 8;
+        }
+
+        &:before,
+        &:after {
+          content: '';
+          width: $radioSize;
+          height: $radioSize;
+          display: block;
+          border-radius: 50%;
+          left: 0;
+          top: 0;
+          position: absolute;
+        }
+
+        &:before {
+          background: $radioBorder;
+          //transition: background .2s ease, transform .4s cubic-bezier(.175, .885, .32, 2);
+        }
+
+        &:after {
+          background: #fff;
+          transform: scale(.78);
+          //transition: transform .6s cubic-bezier(.175, .885, .32, 1.4);
+        }
+      }
+
+      &:checked + span {
+        &:before {
+          transform: scale(1.04);
+          background: $radioActive;
+        }
+
+        &:after {
+          transform: scale(.4);
+          transition: transform .3s ease;
+        }
+      }
+    }
+
+    &:hover {
+      input {
+        & + span {
+          &:before {
+            transform: scale(.92);
+          }
+
+          &:after {
+            transform: scale(.74);
+          }
+        }
+
+        &:checked + span {
+          &:after {
+            transform: scale(.4);
+          }
+        }
+      }
+    }
+  }
+
+  /* end radio button */
+
+  .center-block {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 10px;
+
+
+    .attribute-title {
+      float: left;
+    }
+
+
+    #border_bottoms {
+      width: 18%;
+      float: left;
+    }
+
+    & #border_bottoms:before {
+      position: absolute;
+      content: '';
+      /* width: 20%; */
+      min-width: 15%;
+      border-bottom: 0.3px solid #323232;
+      margin-top: 20px;
+    }
+
+    #border_bottoms2 {
+      width: 35%;
+      float: left;
+    }
+
+    & #border_bottoms2:before {
+      position: absolute;
+      content: '';
+      /* width: 20%; */
+      min-width: 30%;
+      border-bottom: 0.3px solid #323232;
+      margin-top: 20px;
+    }
+  }
+
+  #table-template5, #table-template {
+    .resize {
+      margin-top: 30px;
+
+      //& th, td {
+      //  padding-left: 10px;
+      //  text-align: center;
+      //}
+    }
+  }
+
+}
+
+
+
+
+@media all and (max-width: 1300px) {
+  .content-box.template-page {
+    .content {
+      width: auto;
+      display: flex;
+
+      &__title {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        left: 20px;
+        position: relative;
+        top: 15px;
+      }
+    }
+
+    .content__qr-logos {
+      display: flex;
+      margin: 0 0 0 auto;
+      float: none;
+      /* left: 0; */
+      /* position: relative; */
+      /* top: 0; */
+    }
+
+    .panel-textarea__title {
+      line-height: 14px;
+    }
+  }
+
+
+}
+
+@media all and (max-width: 1190px) {
+  .content-box.template-page #containers-carrier_2 .block-carrier_2 .people-success {
+    & div {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 3px;
+    }
+  }
+  .content-box.template-page #containers-carrier_3 .block-carrier_2 .people-success {
+    & div {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 3px;
+    }
+  }
+
+  .content-box.template-page #containers-carrier_2 .block-carrier_2 {
+    margin-left: 16px;
+  }
+
+  .content-box.template-page #inform-payment-template4 #inform-payment .three-template4-block {
+    margin-top: -15px;
+  }
+
+  .inform-payment__check {
+    & div:first-child {
+      position: relative;
+      top: -10px;
+    }
+  }
+
+  .radio-button {
+    flex-direction: row!important;
+    top: -6px!important;
+  }
+
+  .content-box.template-page #block-templates4 .info-orders__length_block {
+    width: 100%;
+  }
+  .content-box.template-page #block-templates4 .info-orders__length_block:nth-child(2) {
+    width: 50%;
+    float: left;
+  }
+  .content-box.template-page #block-templates4 .info-orders__length_block:last-child {
+    width: 50%;
+  }
+
+
+  .content-box.template-page #containers-carrier #carrier-1 {
+    margin-left: 16px;
+  }
+
+  .content-box.template-page #containers-carrier #carrier-2 {
+    margin-right: 18px;
+  }
+
+  .content-box.template-page #containers-carrier .inform-carrier {
+    & div {
+      display: block;
+      padding-bottom: 4px;
+    }
+  }
+
+  .content-box.template-page #inform-transport {
+    margin: 0 0 20px 17px;
+  }
+  .content-box.template-page #inform-payment {
+    margin: 0 16px 0 0;
+  }
+  .content-box.template-page #inform-comment {
+    margin: 10px 16px 0 0;
+  }
+
+  .content-box.template-page .lines {
+    margin-top: 10px;
+  }
+
+  #orders_inform {
+    height: 136px!important;
+  }
+
+  .content-box.template-page .inform-two-block {
+    display: flex;
+
+    .info-orders {
+      float: none;
+      &__length_block {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        float: none;
+        margin: 0 0 15px;
+        width: 80%;
+        & span {
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  .content-box.template-page .info-orders-right {
+    float: none;
+    margin: 30px 0 0 10px;
+
+    &__length_block {
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 15px;
+
+      & span {
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .content-box.template-page #inform-cargo {
+    height: auto;
+  }
+
+  .content-box.template-page .info-cargo {
+    display: flex;
+    height: auto;
+    margin-bottom: -5px;
+
+    &__left {
+      display: -ms-flexbox;
+      display: flex;
+      float: none;
+      margin: 30px 0 0 9px;
+      width: 45%;
+    }
+    &__plane-tonnage {
+      float: none;
+      //width: 49%;
+      padding-right: 30px;
+      & div:nth-child(-n+3) {
+        flex-direction: column;
+      }
+    }
+    &__plane-length {
+      float: none;
+      //width: 49%;
+      & div:nth-child(-n+3) {
+        flex-direction: column;
+      }
+    }
+
+    .info-cargo-right {
+      float: none;
+
+      &__count-seats {
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        padding-right: 3px;
+      }
+      &__hazard-class {
+        display: flex;
+        flex-direction: column;
+        padding-right: 3px;
+      }
+      .info-card {
+        display: flex;
+        padding-right: 3px;
+
+        &__type-packaging {
+          flex-direction: column;
+          float: none;
+          padding-right: 30px;
+        }
+        &__t-mode {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .content-box.template-page #inform-transport {
+    height: auto;
+    padding-bottom: 10px;
+
+    .driver-inform__full-name {
+      flex-direction: column;
+    }
+
+    .auto-inform__type-auto {
+      flex-direction: column;
+    }
+    .auto-inform__number-car {
+      flex-direction: column;
+    }
+
+    .trailer-inform__type-loading {
+      flex-direction: column;
+    }
+    .trailer-inform__numb-trailer {
+      flex-direction: column;
+    }
+
+  }
+
+  .content-box.template-page #inform-payment {
+    height: auto;
+    padding-bottom: 10px;
+
+    .inform-payment__check {
+      flex-direction: column;
+    }
+
+    .inform-type-sum__count-sum {
+      width: 45%;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+    }
+    .inform-type-sum__type-pay {
+      width: 55%;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .content-box.template-page #inform-comment {
+    height: 117px;
+  }
+
+  .content-box.template-page #inform-payment-template4 #inform-payment .three-template4-block .inform-driver {
+    flex-direction: column;
+  }
+
+  #block-templates4 .info-orders__length_block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    float: none;
+    /* margin: 0 0 15px; */
+    width: 100%;
+  }
+
+  #block-templates4 .info-orders__length_block:nth-child(2) {
+    width: 50%;
+  }
+
+  #block-templates4 .info-orders__length_block:last-child {
+    width: 50%;
+  }
+
+  .content-box.template-page .center-block #border_bottoms2 {
+    width: 31%;
+  }
+
+  .content-box.template-page .center-block #border_bottoms2:before {
+    min-width: 26%;
+  }
+
+}
+
+@media all and (max-width: 1132px) {
+  .content-box.template-page .center-block #border_bottoms2 {
+    width: 24%;
+  }
+
+  .content-box.template-page .center-block #border_bottoms2:before {
+    min-width: 20%;
+  }
+}
+
+@media all and (max-width: 992px) {
+
+  .content-box.template-page #table-template5 {
+    /*  */
+    .panel-textarea__title {
+      line-height: 14px;
+      margin-bottom: 40px;
+    }
+
+    table, thead, tbody, th, td, tr {
+      display: block;
+      padding-bottom: 20px;
+    }
+
+    thead tr {
+      /*  */
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd) {
+      background: #ccc;
+    }
+
+    td {
+      /*  */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      font-family: Rubik-regular;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      text-align: right;
+      padding-right: 5px;
+    }
+
+    td:before {
+      /*  */
+      position: absolute;
+      /*  */
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+    }
+
+    td:nth-of-type(1):before { content: "№"; }
+    td:nth-of-type(2):before { content: "НАИМЕНОВАНИЕ ГРУЗА"; }
+    td:nth-of-type(3):before { content: "ДОКУМЕНТЫ С ГРУЗОМ"; }
+    td:nth-of-type(4):before { content: "ВИД УПАКОВКИ"; }
+    td:nth-of-type(5):before { content: "ЕДИНИЦЫ ИЗМЕРЕНИЯ"; }
+    td:nth-of-type(6):before { content: "ВРЕМЯ Ч. М"; }
+    td:nth-of-type(7):before { content: "КОЛИЧЕСТВО МЕСТ"; }
+    td:nth-of-type(8):before { content: "МАССА БРУТТО,Т"; }
+    td:nth-of-type(9):before { content: "ЦЕНА БЕЗ НДС, ГРН"; }
+    td:nth-of-type(10):before { content: "ОБЩАЯ СУММА С НДС, ГРН"; }
+    td:nth-of-type(11):before { content: "ВСЕГО"; }
+
+  }
+  .content-box.template-page #table-template {
+    /*  */
+    .panel-textarea__title {
+      line-height: 14px;
+      margin-bottom: 40px;
+    }
+
+    table, thead, tbody, th, td, tr {
+      display: block;
+      padding-bottom: 20px;
+    }
+
+    thead tr {
+      /*  */
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd) {
+      background: #ccc;
+    }
+
+    td {
+      /*  */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      font-family: Rubik-regular;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      text-align: right;
+      padding-right: 5px;
+    }
+
+    td:before {
+      /*  */
+      position: absolute;
+      /*  */
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+    }
+
+    td:nth-of-type(1):before { content: "ОПЕРАЦИЯ"; }
+    td:nth-of-type(2):before { content: "ПРИБЫТИЕ"; }
+    td:nth-of-type(3):before { content: "ОТБЫТИЕ"; }
+    td:nth-of-type(4):before { content: "ПРОСТОЙ"; }
+    td:nth-of-type(5):before { content: "МАССА БРУТТО,Т"; }
+    td:nth-of-type(6):before { content: "ПОДПИСЬ ОТВЕТСТВЕННОГО ЛИЦА"; }
+    td:nth-of-type(7):before { content: "ВСЕГО"; }
+
+  }
+
+  .content-box.template-page .content__qr-logos {
+    display: flex;
+    margin: 0 0 0 auto;
+    float: none;
+    left: 0;
+    position: static;
+    top: 0;
+  }
+
+  #maps-info #orders_inform {
+    height: auto!important;
+  }
+
+  .content-box.template-page #templates4 {
+    margin-left: 0;
+    flex-direction: column;
+
+    .info-orders {
+      width: 99%;
+      &__length_block {
+        width: 98%;
+      }
+    }
+    .info-orders-right {
+      padding-right: 0;
+      width: 99%;
+      margin-bottom: 10px;
+      &__length_block {
+        align-items: flex-start;
+        width: 99%;
+        padding-right: 6px;
+      }
+    }
+  }
+
+  .block-info_trans2 {
+    /*display: flex;*/
+    float: none!important;
+    width: 100%!important;
+  }
+  .block-info_trans3.one-block {
+    /*display: flex;*/
+    float: none!important;
+    width: 100%!important;
+
+    & td {
+      width: 100%!important;
+    }
+
+    & #containers-carrier_2 {
+      width: 100%!important;
+    }
+
+    & .block-carrier_2 {
+      width: 97%!important;
+      margin: 0 auto!important;
+    }
+  }
+
+  .block-info_trans4 {
+    /*display: flex;*/
+    float: none!important;
+    width: 100%!important;
+    margin-bottom: -20px;
+    & #containers-carrier_3 {
+      width: 100%!important;
+      margin-top: 20px;
+     }
+  }
+
+
+  #cons {
+    /*display: flex;*/
+    float: none!important;
+    width: 100%!important;
+
+    #classes {
+      width: 100%!important;
+    }
+    .inform-transport-template4 {
+      height: auto !important;
+      float: none!important;
+      margin: 0 auto 20px!important;
+      width: 97%!important;
+    }
+  }
+
+  #pay-com-block {
+    /*display: flex;*/
+    float: none!important;
+    width: 100%!important;
+
+    #inform-payment .three-template4-block {
+      width: 100%!important;
+
+      .inform-type-sum {
+        width: 100%;
+        &__count-sum {
+          width: 99%;
+          padding-right: 0;
+        }
+        &__type-pay {
+          width: 99%;
+         padding-right: 0;
+        }
+      }
+    }
+    .inform-driver {
+      margin: 15px 0 0 10px;
+      width: 99%!important;
+    }
+  }
+
+  .content-box.template-page #inform-payment-template4 #inform-payment {
+    float: none;
+    width: 97%;
+    margin: 0 auto 20px;
+  }
+
+  #inform-payment-template4 #inform-payment .three-template4-block .inform-driver {
+    width: 99%;
+  }
+
+  .block-fix_inform-pay #inform-payment .inform-payment {
+    padding-right: 2px;
+    &__check {
+      width: 99%!important;
+    }
+  }
+
+  #block-templates4 .info-orders__length_block {
+    width: 99%!important;
+  }
+
+  #block-templates4 .info-orders__length_block:last-child {
+    width: 99%!important;
+  }
+
+  .block-info_trans1 {
+    /*display: flex;*/
+    float: none!important;
+    width: 100%!important;
+
+    #containers-carrier {
+      /* float: left; */
+      /* width: 100%; */
+      width: 100%!important;
+      margin: 0!important;
+    }
+  }
+
+    .content-box.template-page #block-templates4 .info-orders__length_block:nth-child(2) {
+      width: 99%;
+      /* float: left; */
+  }
+
+  #template_1 .panel-textarea {
+    height: auto!important;
+  }
+
+  .content-box.template-page #transport-cargo_tables {
+    font-size: 14px !important;
+  }
+
+  .content-box.template-page #containers-carrier #carrier-1 {
+    margin-left: 10px;
+  }
+
+  .content-box.template-page #inform-transport {
+    margin: 0 0 20px 10px;
+  }
+
+  .content-box.template-page #containers-carrier .inform-carrier {
+    padding: 0 3px 5px 0;
+  }
+  .content-box.template-page #inform-payment .inform-type-sum {
+    flex-direction: column;
+    margin: 0 0 0px 10px;
+    width: 100%;
+    display: flex;
+
+    &__count-sum {
+      width: 99%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-right: 7px;
+      padding-bottom: 5px;
+    }
+    &__type-pay {
+      width: 97%;
+      padding-right: 1px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .content-box.template-page .lines-cargos .cargo-width {
+    width: 100%;
+    float: none;
+
+    & .lines-cargos__bottom {
+      margin: 20px 0 15px 0;
+    }
+  }
+
+  .content-box.template-page #inform-comment {
+    min-height: 70px;
+    height: 100%;
+  }
+
+  .content-box.template-page .info-cargo {
+    margin-bottom: 10px;
+
+    .info-cargo__left {
+      width: 60%;
+
+      .info-cargo__plane-tonnage {
+        width: 55%;
+      }
+    }
+
+    .info-cargo-right {
+      padding: 0 0 0 50px;
+
+      &__count-seats {
+        padding-right: 6px;
+      }
+      &__hazard-class {
+        padding-right: 6px;
+      }
+
+      .info-card {
+        flex-direction: row;
+        padding-right: 3px;
+        &__type-packaging {
+          -ms-flex-direction: column;
+          flex-direction: column;
+          float: none;
+          padding-right: 3px;
+          width: 100%;
+        }
+        &__t-mode {
+          display: -ms-flexbox;
+          display: flex;
+          flex-direction: column;
+          padding-left: 0;
+          padding-right: 3px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .content-box.template-page .info-orders-right {
+    width: 75%;
+  }
+  .content-box.template-page .info-orders-right__length_block {
+    padding-right: 6px;
+
+  }
+  .content-box.template-page .info-orders__length_block {
+    padding-right: 0;
+  }
+  .content-box.template-page .inform-two-block .info-orders__length_block {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 600px) {
+
+  .content-box.template-page .content {
+    margin-bottom: 50px;
+  }
+
+  .content-box.template-page .content__qr-images {
+    width: 140px;
+    height: 140px;
+  }
+  .content-box.template-page .content__logos {
+    width: 140px;
+  }
+
+  .content-box.template-page .lines {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    &__cargo-width {
+      float: none;
+      width: 100%;
+    }
+    &__bottom {
+      margin: 0 0 30px 0;
+      width: 95%;
+    }
+  }
+
+  .content-box.template-page #tables-detection {
+    /*  */
+    table, thead, tbody, th, td, tr {
+      display: block;
+      padding-bottom: 20px;
+    }
+
+    thead tr {
+      /*  */
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+
+    tr:nth-child(odd) {
+      background: #ccc;
+    }
+
+    td {
+      /*  */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      font-family: Rubik-regular;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      text-align: right;
+      padding-right: 5px;
+    }
+
+    td:before {
+      /*  */
+      position: absolute;
+      /*  */
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+    }
+
+    td:nth-of-type(1):before { content: "№"; }
+    td:nth-of-type(2):before { content: "НАЗВАНИЕ РАБОТ, УСЛУГ"; }
+    td:nth-of-type(3):before { content: "ЕДИНИЦЫ ИЗМЕРЕНИЯ"; }
+    td:nth-of-type(4):before { content: "КОЛ-ВО"; }
+    td:nth-of-type(5):before { content: "ЦЕНА БЕЗ НДС ЗА ЕДИНИЦУ, ГРН"; }
+    td:nth-of-type(6):before { content: "ОБЩАЯ СУММА С НДС, ГРН"; }
+
+  }
+
+  .content-box.template-page #orders_inform {
+    height: auto!important;
+  }
+
+  .content-box.template-page .inform-two-block {
+    flex-direction: column;
+
+    .info-orders {
+      display: flex;
+      flex-direction: column;
+      margin: 30px 5px 0 5px;
+      width: 98%;
+
+      &__length_block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        margin: 0 3px 10px 0;
+        padding-right: 3px;
+        width: 100%;
+      }
+    }
+
+    .info-orders-right {
+      width: 98%;
+      margin: 15px 8px 0;
+      display: flex;
+      flex-direction: column;
+
+      &__length_block {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 6px;
+      }
+    }
+  }
+
+  .content-box.template-page .info-cargo {
+    flex-direction: column;
+
+    .info-cargo__left {
+      flex-direction: column;
+      width: 97%;
+
+      .info-cargo__plane-tonnage {
+        width: 100%;
+        float: none;
+        padding-right: 2px;
+      }
+      .info-cargo__plane-length {
+        float: left;
+        width: 100%;
+        padding-right: 3px;
+      }
+    }
+    .info-cargo-right {
+      margin: 0 0 0 9px;
+      width: 98%;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+
+      .info-card__type-packaging {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 10px;
+      }
+      .info-card__t-mode {
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+      &__hazard-class {
+        padding-right: 8px;
+      }
+      &__count-seats {
+        padding-right: 8px;
+      }
+
+      .info-card {
+        -ms-flex-direction: row;
+        flex-direction: column;
+        padding-right: 5px;
+      }
+    }
+  }
+
+
+  .content-box.template-page .block-info_trans {
+    width: 100%!important;
+    /*display: flex;*/
+    float: none!important;
+
+    #classes {
+      width: 97%;
+      margin: auto;
+    }
+  }
+  .content-box.template-page .block-info_trans1 {
+    width: 100%!important;
+    display: block!important;
+    float: none!important;
+
+    & td {
+      width: 100% !important;
+      display: block;
+    }
+  }
+  .content-box.template-page .block-info_trans2 {
+    width: 100%!important;
+    /*display: flex;*/
+    float: none!important;
+
+    & td {
+      width: 100% !important;
+      display: block;
+    }
+  }
+  .content-box.template-page .block-info_trans3 {
+    width: 100%!important;
+    /*display: flex;*/
+    float: none!important;
+
+    & td {
+      width: 97%!important;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .content-box.template-page .block-info_trans4 {
+    width: 100%!important;
+    /*display: flex;*/
+    float: none!important;
+
+    & td {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .content-box.template-page .pay-com-block {
+    width: 100% !important;
+    /*display: flex;*/
+    float: none;
+    margin: auto!important;
+  }
+
+  .content-box.template-page #inform-transport {
+    margin: auto;
+    display: block;
+
+    .types {
+      display: block!important;
+    }
+
+    .driver-inform {
+      margin: 25px 9px 0;
+      padding-right: 12px;
+      width: 99%;
+    }
+
+    .auto-inform {
+      float: none;
+      margin: 15px 0 0 9px;
+      padding-right: 17px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .trailer-inform {
+      flex-direction: column;
+      padding-right: 17px;
+      width: 100%;
+      display: flex;
+      margin-left: 9px;
+    }
+  }
+
+  .content-box.template-page #inform-payment {
+    float: none;
+    height: auto;
+    margin: 20px auto 0;
+    width: 96.5%;
+
+    .inform-payment {
+      margin: 25px 0 0;
+      padding-right: 4px;
+      width: 99%;
+    }
+    .inform-payment__check {
+      margin: 0 1px 15px 9px;
+      display: -ms-flexbox;
+      display: flex;
+      padding-right: 3px;
+    }
+
+    .inform-type-sum {
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 0 0 0px 9px;
+      width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      &__count-sum {
+        width: 99%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-right: 3px;
+        padding-bottom: 5px;
+      }
+      &__type-pay {
+        width: 99%;
+        padding-right: 3px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .content-box.template-page #inform-comment {
+    min-height: 70px;
+    height: 100%;
+    margin: 20px auto;
+    float: none;
+    width: 97%;
+  }
+
+  .content-box.template-page #containers-carrier {
+    float: none;
+    width: 100%!important;
+
+    .inform-carrier {
+      width: 97%;
+    }
+
+    #carrier-1 {
+      margin: 0 auto;
+    }
+
+    #carrier-2 {
+      margin: 20px auto 20px;
+    }
+  }
+
+  .content-box.template-page #containers-carrier_2 {
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+
+    .block-carrier_2 {
+      margin-left: 0;
+    }
+  }
+
+  .content-box.template-page #containers-carrier_3 {
+    display: -ms-flexbox;
+    display: flex;
+    width: 97%!important;
+    float: none;
+    margin: 20px auto 0;
+  }
+
+
+}
+
+@media all and (max-width: 375px) {
+  .content-box.template-page .content__qr-images {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: -20px;
+  }
+  .content-box.template-page .content__logos {
+    width: 120px;
+  }
+  .content-box.template-page .title-content-fonts {
+    font-size: 26px;
+    width: 50%;
+  }
+
+  .content-box.template-page .lines {
+    width: 90%;
+  }
+
+  .content-box.template-page .panel-textarea {
+    margin: 0 8px 20px;
+    width: 90%;
+  }
+
+  .content-box.template-page #inform-transport {
+    float: left;
+    height: 190px;
+    margin: 0 0 20px 19px;
+    width: 94.3%;
+  }
+
+  .content-box.template-page #inform-transport {
+    width: 94%;
+    margin: 0 22px 0 0px;
+    display: block;
+    height: auto!important;
+  }
+  .content-box.template-page #inform-payment {
+    margin: 20px 7px 0;
+    width: 90.5%;
+  }
+
+  .content-box.template-page #inform-comment {
+    margin: 20px 8px 20px;
+    width: 90%;
+  }
+
+  .content-box.template-page #containers-carrier #carrier-1 {
+    margin: 0 8px 0;
+  }
+  .content-box.template-page #containers-carrier #carrier-2 {
+    margin: 20px 9px;
+  }
+
+  .content-box.template-page .block-info_trans3 {
+    width: 95% !important;
+    & td {
+      width: 94% !important;
+      margin: 0 auto;
+    }
+  }
+
+  .content-box.template-page .block-info_trans4 {
+    width: 92.5% !important;
+
+    #containers-carrier_3 {
+      margin: 20px 9px 0;
+    }
+  }
+
+  .content-box.template-page .force-break.tr-footer {
+    table {
+      width: 80%!important;
+    }
+  }
+}
+
+@media all and (max-width: 360px) {
+
+  .content-box.template-page .content__qr-images {
+    width: 104px;
+    height: 104px;
+    position: relative;
+    left: -33px;
+  }
+
+  .content-box.template-page .lines {
+    width: 88%;
+  }
+
+  .content-box.template-page .panel-textarea {
+    width: 86%;
+  }
+
+  .content-box.template-page #inform-transport {
+    width: 90%;
+    height: auto!important;
+  }
+
+  .content-box.template-page .pay-com-block {
+    width: 95.5% !important;
+  }
+
+  .content-box.template-page #inform-comment {
+    width: 90.3%;
+  }
+
+  .content-box.template-page .block-info_trans3 {
+    width: 91% !important;
+  }
+
+  .content-box.template-page .block-info_trans4 {
+    width: 88.5% !important;
+  }
+
+  .content-box.template-page .force-break.tr-footer {
+    table {
+      width: 80%!important;
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+
+  .content-box.template-page .content__qr-images {
+    left: -74px;
+  }
+
+  .content-box.template-page .lines {
+    width: 77%;
+  }
+
+  .content-box.template-page .panel-textarea {
+    width: 75%;
+  }
+
+  .content-box.template-page #tables-detection td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    font-family: Rubik-regular;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  .content-box.template-page #inform-transport {
+    width: 78.5%;
+    height: auto !important;
+  }
+
+  .content-box.template-page .pay-com-block {
+    width: 83.5% !important;
+  }
+
+  .content-box.template-page .block-info_trans3 {
+    width: 80% !important;
+  }
+
+  .content-box.template-page .block-info_trans4 {
+    width: 77.5% !important;
+  }
+
+  .content-box.template-page .force-break.tr-footer {
+    table {
+      width: 75% !important;
+    }
+  }
+
+  .content-box.template-page #containers-carrier .inform-carrier {
+    padding: 0 7px 5px 0;
+  }
+
+  .content-box.template-page #inform-payment .inform-type-sum {
+    width: 99%;
+  }
+
+  .block-fix_inform-pay #inform-payment .inform-payment__check {
+    width: 98% !important;
+  }
+
+  .content-box.template-page .inform-two-block .info-orders, .content-box.template-page .inform-two-block .info-orders-right {
+    width: 97%;
+  }
+
+  .content-box.template-page .info-cargo .info-cargo__left .info-cargo__plane-tonnage, .content-box.template-page .info-cargo .info-cargo__left .info-cargo__plane-length {
+    width: 98%;
+  }
+
+  .content-box.template-page .info-cargo .info-cargo-right {
+    width: 97%;
+  }
+
+  .content-box.template-page #inform-transport .driver-inform {
+    width: 98%;
+  }
+
+  .content-box.template-page #inform-payment .inform-payment {
+    width: 98%;
+  }
+
+}

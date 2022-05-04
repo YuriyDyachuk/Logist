@@ -1,0 +1,156 @@
+<?php
+
+return array (
+  'accepted' => 'Вы должны принять :attribute.',
+  'active_url' => 'Поле :attribute содержит недействительный URL.',
+  'after' => 'В поле :attribute должна быть дата после :date.',
+  'after_or_equal' => 'В поле :attribute должна быть дата после или равняться :date.',
+  'alpha' => 'Поле :attribute может содержать только буквы.',
+  'alpha_dash' => 'Поле :attribute может содержать только буквы, цифры и дефис.',
+  'alpha_num' => 'Поле :attribute может содержать только буквы и цифры.',
+  'array' => 'Поле :attribute должно быть массивом.',
+  'before' => 'В поле :attribute должна быть дата до :date.',
+  'before_or_equal' => 'В поле :attribute должна быть дата до или равняться :date.',
+  'between' =>
+  array (
+    'numeric' => 'Поле :attribute должно быть между :min и :max.',
+    'file' => 'Размер файла в поле :attribute должен быть между :min и :max Килобайт(а).',
+    'string' => 'Количество символов в поле :attribute должно быть между :min и :max.',
+    'array' => 'Количество элементов в поле :attribute должно быть между :min и :max.',
+  ),
+  'boolean' => 'Поле :attribute должно иметь значение логического типа.',
+  'code_limit' => 'You can request code up to 3 times per hour',
+  'code_wrong' => 'Incorrect activation code',
+  'company_name_required' => 'Company name -  required field',
+  'confirmed' => 'Поле :attribute не совпадает с подтверждением.',
+  'custom' =>
+  array (
+    'attribute-name' =>
+    array (
+      'rule-name' => 'custom-message',
+    ),
+      'images.avatar' => [
+          'required' => 'Photo must be attached',
+      ],
+      'offer_partner' => [
+          'required_with' => 'Field is required',
+      ],
+      'offer_partner_payment_type' => [
+          'required_with' => 'Field is required',
+      ],
+      'offer_partner_payment_term' => [
+          'required_with' => 'Field is required',
+      ],
+  ),
+  'date' => 'Поле :attribute не является датой.',
+  'date_format' => 'Поле :attribute не соответствует формату :format.',
+  'different' => 'Поля :attribute и :other должны различаться.',
+  'digits' => 'Длина цифрового поля :attribute должна быть :digits.',
+  'digits_between' => 'Длина цифрового поля :attribute должна быть между :min и :max.',
+  'dimensions' => 'Поле :attribute имеет недопустимые размеры изображения.',
+  'distinct' => 'Поле :attribute содержит повторяющееся значение.',
+  'driver_licence_image_required' => 'Driving license photo - required field',
+  'driver_licence_required' => 'Driving license - required field',
+  'driver_name_required' => 'Driver - required field',
+  'egrpou_required' => 'Companies EDRPOU / USRLE - required field',
+  'email' => 'Field :attribute must be a valid email address.',
+  'email_not_activate' => 'Account is not activated. Activation link is sent to your email.',
+  'email_required' => 'E-mail - required field',
+  'email_unique' => 'User with this email already exists',
+  'exists' => 'Выбранное значение для :attribute некорректно.',
+  'file' => 'Поле :attribute должно быть файлом.',
+  'filled' => 'Поле :attribute обязательно для заполнения.',
+  'image' => 'Поле :attribute должно быть изображением.',
+  'in' => 'Выбранное значение для :attribute ошибочно.',
+  'in_array' => 'Поле :attribute не существует в :other.',
+  'inn_required' => 'EDRPOU / USRLE - required field',
+  'integer' => 'Поле :attribute должно быть целым числом.',
+  'ip' => 'Поле :attribute должно быть действительным IP-адресом.',
+  'ipv4' => 'Поле :attribute должно быть действительным IPv4-адресом.',
+  'ipv6' => 'Поле :attribute должно быть действительным IPv6-адресом.',
+  'json' => 'Поле :attribute должно быть JSON строкой.',
+  'license_accepted' => 'You need to accept the license agreement',
+  'login_transport_unique' => 'This login already exists',
+  'max' =>
+  array (
+    'numeric' => 'Field :attribute can not be more than :max.',
+    'file' => 'Размер файла не может быть более :max Килобайт(а).',
+    'string' => 'Количество символов в поле :attribute не может превышать :max.',
+    'array' => 'Количество элементов в поле :attribute не может превышать :max.',
+  ),
+  'mimes' => 'Поле :attribute должно быть файлом одного из следующих типов: :values.',
+  'mimetypes' => 'Поле :attribute должно быть файлом одного из следующих типов: :values.',
+  'min' =>
+  array (
+    'numeric' => 'The :attribute field must be at least :min.',
+    'file' => 'Размер файла в поле :attribute должен быть не менее :min Килобайт(а).',
+    'string' => 'The number of characters in the: attribute field must be at least :min.',
+    'array' => 'Количество элементов в поле :attribute должно быть не менее :min.',
+  ),
+  'name_max' => 'Full name can not exceed 255 characters',
+  'not_in' => 'Выбранное значение для :attribute ошибочно.',
+  'number_transport_required' => 'License plate - required field',
+  'number_transport_unique' => 'License plate already exists',
+  'numeric' => 'Field :attribute must be a number.',
+  'password_confirmed' => 'It’s not the same password',
+  'password_regex' => 'Passwords must be at least 8 characters long and must contain Uppercase and Lowercase characters',
+  'password_required' => 'Password - required field',
+  'phone_regex' => 'Phone number format is incorrect',
+  'phone_required' => 'Phone number - required field',
+  'phone_unique' => 'User with this phone number already exists',
+  'present' => 'Поле :attribute должно присутствовать.',
+  'regex' => 'Field :attribute has an invalid format.',
+  'required' => 'Поле обязательно для заполнения.',
+  'required_if' => 'Поле :attribute обязательно для заполнения, когда :other равно :value.',
+  'required_unless' => 'Поле :attribute обязательно для заполнения, когда :other не равно :values.',
+  'required_with' => 'Поле :attribute обязательно для заполнения, когда :values указано.',
+  'required_with_all' => 'Поле :attribute обязательно для заполнения, когда :values указано.',
+  'required_without' => 'Поле :attribute обязательно для заполнения, когда :values не указано.',
+  'required_without_all' => 'Поле :attribute обязательно для заполнения, когда ни одно из :values не указано.',
+  'same' => 'Значение :attribute должно совпадать с :other.',
+  'service_must_select' => 'You need to choose at least one category',
+  'size' =>
+  array (
+    'numeric' => 'Поле :attribute должно быть равным :size.',
+    'file' => 'Размер файла должен быть равен :size Килобайт(а).',
+    'string' => 'Количество символов в поле :attribute должно быть равным :size.',
+    'array' => 'Количество элементов в поле :attribute должно быть равным :size.',
+  ),
+  'string' => 'Поле :attribute должно быть строкой.',
+  'timezone' => 'Поле :attribute должно быть действительным часовым поясом.',
+  'trailerNumber_transport_unique' => 'Trailer license plate already exists',
+  'unique' => 'This value for the :attribute field already exists.',
+  'uploaded' => 'Загрузка поля :attribute не удалась.',
+  'url' => 'Поле :attribute имеет ошибочный формат.',
+
+  'attributes' => array(
+    'birthday ' => 'Birthday',
+    'email' => 'Email',
+    'driver_licence' => 'Driving License Number',
+    'full_name' => 'Full name',
+    'password' => 'Password',
+    'phone' => 'Phone',
+    'rate' => ' ',
+    'percent' => ' ',
+    'points.unloading.*.date_at' => 'Unloading date',
+    'points.loading.*.date_at' => 'Loading date'
+    ),
+
+
+    'recaptcha' => 'Please ensure that you are a human!',
+
+    'partner_errors' => array(
+        'email_exist' => 'you can not add a partner with this email',
+        'same_email' => 'already on the list',
+    ),
+
+    'staff' => array (
+        'before' => 'The employee must be at least 18 years old',
+        'images_avatar_required' => 'Need to add photo',
+        'password_min' => 'The number of characters must be at least :min',
+        'password_regex' => 'Password must contain numbers, uppercase and lowercase letters',
+    ),
+
+    'driver_login' => 'The value must contain lowercase Latin letters',
+    'car_year' => 'Cars must be no older than 50 years',
+);

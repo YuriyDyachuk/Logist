@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://namespaces.gsma.org/mobile-connect/1.1" xmlns:ns2="http://uri.etsi.org/TS102204/v1.1.2#">
+<SOAP-ENV:Body>
+	<ns1:MSS_Signature>
+		<MSS_SignatureReq MajorVersion="1" MinorVersion="1" MessagingMode="asynchClientServer">
+			<ns2:AP_Info AP_ID="[[provider]]" AP_TransID="[[transid]]" AP_PWD="[[password]]" Instant="[[datetime]]"/>
+			<ns2:MSSP_Info>
+				<ns2:MSSP_ID>
+					<ns2:DNSName></ns2:DNSName>
+				</ns2:MSSP_ID>
+			</ns2:MSSP_Info>
+			<ns2:MobileUser>
+				<ns2:MSISDN>[[phone]]</ns2:MSISDN>
+			</ns2:MobileUser>
+			<ns2:DataToBeSigned MimeType="application/x-sha256" Encoding="Base64">[[dataSigned]]</ns2:DataToBeSigned>
+			<ns2:DataToBeDisplayed MimeType="text/plain" Encoding="UTF-8">[[dataDisplayed]]</ns2:DataToBeDisplayed>
+			<ns2:SignatureProfile>
+				<ns2:mssURI>http://kyivstar.ua/ds_NoReceipt</ns2:mssURI>
+			</ns2:SignatureProfile>
+			<ns2:AdditionalServices>
+				<ns2:Service>
+					<ns2:Description>
+						<ns2:mssURI>http://uri.etsi.org/TS102204/v1.1.2#timestamp</ns2:mssURI>
+					</ns2:Description></ns2:Service></ns2:AdditionalServices>
+			<ns2:MSS_Format>
+				<ns2:mssURI>http://uri.etsi.org/01733/v2.2.1#CAdES</ns2:mssURI>
+			</ns2:MSS_Format>
+		</MSS_SignatureReq>
+	</ns1:MSS_Signature>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

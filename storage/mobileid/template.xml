@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <MSS_Signature xmlns="">
+            <MSS_SignatureReq MajorVersion="1" MessagingMode="synch" MinorVersion="1" TimeOut="240">
+                <ns1:AP_Info AP_ID="http://kyivstar" AP_PWD="kyivstar" AP_TransID="_23149" Instant="2020-07-31T14:40:01.000Z" xmlns:ns1="http://uri.etsi.org/TS102204/v1.1.2#"/>
+                <ns2:MSSP_Info xmlns:ns2="http://uri.etsi.org/TS102204/v1.1.2#">
+                    <ns2:MSSP_ID>
+                        <ns2:DNSName></ns2:DNSName>
+                    </ns2:MSSP_ID>
+                </ns2:MSSP_Info>
+                <ns3:MobileUser xmlns:ns3="http://uri.etsi.org/TS102204/v1.1.2#">
+                    <ns3:MSISDN>+380672327713</ns3:MSISDN>
+                </ns3:MobileUser>
+                <ns4:DataToBeSigned Encoding="UTF-8" MimeType="text/plain" xmlns:ns4="http://uri.etsi.org/TS102204/v1.1.2#">Transaction 500 USD</ns4:DataToBeSigned>
+                <ns5:SignatureProfile xmlns:ns5="http://uri.etsi.org/TS102204/v1.1.2#">
+                    <ns5:mssURI>http://kyivstar.ua/demo_ds</ns5:mssURI>
+                </ns5:SignatureProfile>
+                <ns6:MSS_Format xmlns:ns6="http://uri.etsi.org/01733/v2.2.1#CAdES">
+                    <ns6:mssURI>http://uri.etsi.org/01733/v2.2.1#CAdES</ns6:mssURI>
+                </ns6:MSS_Format>
+            </MSS_SignatureReq>
+        </MSS_Signature>
+    </soapenv:Body>
+</soapenv:Envelope>
+

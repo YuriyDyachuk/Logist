@@ -1,0 +1,236 @@
+.btn-default
+	background-color: $accent
+	color: #fff
+	padding: 14px 50px
+	font-size: 14px
+	border-radius: 5px
+	box-shadow: 0px 5px 5px rgba(4, 218, 0, 0.05)
+	font-weight: bold
+	transition: all .3s ease
+	+media-breakpoint-down(sm)
+		font-size: 16px
+
+	&:hover
+		color: #fff
+		background-color: darken($accent, 7%)
+
+a:hover
+	text-decoration: none
+
+.be_static
+	position: static!important
+
+// .img-responsive
+// 	+media-breakpoint-down(sm)
+// 		width: 100%
+
+h1
+	font-size: 50px
+	color: $texttitle
+	font-family: $secondfont
+	+media-breakpoint-down(sm)
+		font-size: 25px
+
+h2
+	font-size: 48px
+	font-weight: bold
+	color: $texttitle
+	font-family: $secondfont
+	letter-spacing: 0.02em
+	+media-breakpoint-down(sm)
+		font-size: 30px
+
+
+h3
+	font-size: 36px
+	letter-spacing: -0.256667px
+	color: $texttitle
+	font-family: $secondfont
+	+media-breakpoint-down(sm)
+		font-size: 24px
+
+h4
+	font-size: 18px
+	color: $texttitle
+	line-height: 1.5
+	letter-spacing: -0.256667px
+	font-family: $secondfont
+
+.see
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	align-items: center
+	cursor: pointer
+	margin-bottom: 75px
+	+media-breakpoint-up(md)
+		justify-content: flex-start
+
+	svg
+		width: 44px
+		height: 44px
+		margin-right: 20px
+		+media-breakpoint-up(md)
+			margin-left: 0
+
+	p
+		margin-bottom: 0
+		color: #7A7A7A
+
+form
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	textarea
+		border: none
+		border-bottom: 1px solid #2C3345
+		width: 100%
+		+media-breakpoint-down(sm)
+			font-size: 16px
+
+		&:focus
+			outline: none
+
+	label
+		display: block
+
+	.js--error_message
+		position: absolute
+		bottom: -15px
+		top: auto!important
+		color: #f44336
+
+	.form_row
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		width: 100%
+		margin-bottom: 70px
+		flex-wrap: wrap
+		+media-breakpoint-down(sm)
+			margin-bottom: 0
+
+		.field_wrap
+			width: calc(50% - 15px)
+			margin-bottom: 0
+			+media-breakpoint-down(sm)
+				width: 100%
+				margin-bottom: 43px
+
+	.field_wrap
+		margin-bottom: 70px
+		+media-breakpoint-down(sm)
+			margin-bottom: 43px
+
+	.btn-default
+		border: none
+		+media-breakpoint-down(sm)
+			font-size: 16px
+			margin-left: 0!important
+			margin-right: auto!important
+
+
+
+
+.has-float-label
+  display: block
+  position: relative
+
+  label, > span
+    position: absolute
+    left: 0
+    top: -10px
+    cursor: text
+    font-size: 75%
+    opacity: 1
+    -webkit-transition: all .2s
+    transition: all .2s
+
+  textarea
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+
+  input, textarea
+    font-size: inherit
+    padding-top: 1em
+    margin-bottom: 2px
+    border: 0
+    border-radius: 0
+    border-bottom: 1px solid #2C3345
+
+  textarea
+   	padding-top: 2em
+
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder
+    opacity: 1
+    -webkit-transition: all .2s
+    transition: all .2s
+    color: #fff
+
+  input::-moz-placeholder, textarea::-moz-placeholder
+    opacity: 1
+    -moz-transition: all .2s
+    transition: all .2s
+
+  input:-ms-input-placeholder, textarea:-ms-input-placeholder, input::-ms-input-placeholder, textarea::-ms-input-placeholder
+    opacity: 1
+    -ms-transition: all .2s
+    transition: all .2s
+
+  input::placeholder, textarea::placeholder
+    opacity: 1
+    -webkit-transition: all .2s
+    transition: all .2s
+    //color: #fff
+
+  input:placeholder-shown:not(:focus)::-webkit-input-placeholder, textarea:placeholder-shown:not(:focus)::-webkit-input-placeholder, input:placeholder-shown:not(:focus)::-moz-placeholder, textarea:placeholder-shown:not(:focus)::-moz-placeholder, input:placeholder-shown:not(:focus):-ms-input-placeholder, textarea:placeholder-shown:not(:focus):-ms-input-placeholder, input:placeholder-shown:not(:focus)::-ms-input-placeholder, textarea:placeholder-shown:not(:focus)::-ms-input-placeholder, input:placeholder-shown:not(:focus)::placeholder, textarea:placeholder-shown:not(:focus)::placeholder
+    opacity: 0
+
+  input:placeholder-shown:not(:focus) + *, textarea:placeholder-shown:not(:focus) + *
+    font-size: 14px
+    top: .45em
+
+  input:focus
+    outline: none
+    // border-color: rgba(0, 0, 0, 0.5)
+
+  textarea
+    &:focus
+      outline: none
+      // border-color: rgba(0, 0, 0, 0.5)
+
+    // padding-right: 1em
+    // background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.5em bottom 0.25em
+    // background-size: 8px 10px
+
+*
+  box-sizing: border-box
+
+
+.button-style1, .button-style1:active, .button-style1:focus, .button-style1:visited
+	min-width: 220px
+	background-color: #00CF3E
+	color: #fff
+
+
+.btn
+	display: inline-block
+	padding: 14px 50px
+	text-align: center
+	cursor: pointer
+	border: 1px solid transparent
+	border-radius: 4px
+	box-shadow: 0 5px 5px rgba(4, 218, 0, 0.05)
+	font-family: Gilroy
+	font-style: normal
+	font-weight: bold
+	font-size: 14px
+	line-height: 17px
+

@@ -1,0 +1,126 @@
+footer
+	padding-top: 100px
+	overflow-x: hidden
+	+media-breakpoint-down(sm)
+		padding-top: 37px
+
+	h2
+		margin-bottom: 29px
+		line-height: 1.2
+		font-family: $secondfont
+
+	.d
+		max-width: 426px
+		font-size: 18px
+		opacity: .8
+		color: #68738B
+		+media-breakpoint-down(sm)
+			font-size: 13px
+			line-height: 1.9
+			margin-bottom: 30px
+
+	form
+		max-width: 480px
+		margin: auto
+
+		.btn-default
+			margin: auto
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+
+	.address
+		opacity: .8
+		margin-top: 75px
+		+media-breakpoint-down(sm)
+			margin-top: 0
+			margin-bottom: 30px
+
+		p
+			margin-bottom: 0
+			color: $texttitle
+			font-weight: bold
+			+media-breakpoint-down(sm)
+				font-size: 14px
+
+			&:not(:last-child)
+				margin-bottom: 20px
+				+media-breakpoint-down(sm)
+					margin-bottom: 10px
+
+		a
+			color: $texttitle
+			font-weight: bold
+
+	.sub_footer
+		margin-top: 220px
+		padding-top: 60px
+		padding-bottom: 74px
+		position: relative
+		+media-breakpoint-down(sm)
+			margin-top: 69px
+			padding-top: 32px
+			padding-bottom: 0
+
+		&:after
+			content: ""
+			width: 200%
+			height: 1px
+			background-color: #F2F1F6
+			position: absolute
+			top: 0
+			left: -50%
+
+		svg
+			max-width: 122px
+			height: 40px
+			margin-bottom: 22px
+
+		p
+			font-size: 13px
+			color: $texttitle
+			font-weight: bold
+			letter-spacing: 0.0082em
+			+media-breakpoint-down(sm)
+				font-weight: normals
+
+		.links
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			justify-content: center
+			+media-breakpoint-down(sm)
+				flex-direction: column
+				align-items: flex-start
+
+			a
+				font-size: 14px
+				text-align: center
+				color: $texttitle
+				font-weight: bold
+				margin: 0 38px
+				letter-spacing: 0.0082em
+				+media-breakpoint-down(sm)
+					font-size: 12px
+					margin-bottom: 22px
+					margin-left: 0
+					margin-right: 0
+					font-weight: normal
+	
+		.right
+			p
+				text-align: right
+				+media-breakpoint-down(sm)
+					font-weight: normal
+
+		.copy
+			text-align: center
+			font-size: 12px
+			font-weight: normal
+			margin-top: 44px
+			margin-bottom: 40px

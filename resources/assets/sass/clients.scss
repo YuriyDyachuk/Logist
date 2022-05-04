@@ -1,0 +1,225 @@
+[data-notify=container][class*=alert-pastel-] {
+  background-color: #ffffee;
+  border-width: 0px;
+  border-left: 15px solid #fff06a;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.3);
+  font-family: "Old Standard TT", serif;
+  letter-spacing: 1px;
+}
+[data-notify=container].alert-pastel-info {
+  border-left-color: #007cff;
+}
+[data-notify=container].alert-pastel-success {
+  border-left-color: #00cf3e;
+}
+[data-notify=container].alert-pastel-danger {
+  border-left-color: #ff674c;
+}
+.panel-client .content-box__header-avatar {
+  margin: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.panel-client .padding-left-sm {
+  padding-left: 15px;
+}
+@media (max-width: 767.999px) {
+  .panel-client .padding-left-sm {
+    margin-left: 100px;
+  }
+}
+.panel-client .panel-heading {
+  padding: 10px 15px;
+}
+.panel-client .panel-heading .btn-collapse {
+  top: 10px;
+}
+.panel-client .panel-heading .invitation {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 55px;
+  right: 3px;
+  opacity: 0.9;
+  background: url("/main_layout/images/svg/invited.svg") no-repeat center;
+  background-size: contain;
+}
+.panel-client .panel-heading .invitation:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.panel-client .panel-body .specifications > .row {
+  padding-bottom: 15px;
+}
+#addClient .modal-header, #addPartner .modal-header {
+  padding-bottom: 15px;
+}
+#addClient #addTwoPhone, #addPartner #addTwoPhone {
+  padding: 0;
+  margin-bottom: 10px;
+  opacity: 0.6;
+  display: block;
+}
+#addClient #addTwoPhone:hover, #addPartner #addTwoPhone:hover {
+  opacity: 1;
+}
+#addClient .step-title, #addPartner .step-title {
+  opacity: 0.6;
+  position: relative;
+}
+#addClient .step-title .link-back, #addPartner .step-title .link-back {
+  position: absolute;
+  left: 0;
+  padding: 0;
+  border: none;
+}
+#addClient .form-group, #addPartner .form-group {
+  position: relative;
+}
+#addClient .form-group.checkbox, #addPartner .form-group.checkbox {
+  margin: 0 0 15px;
+  text-align: right;
+}
+#addClient .form-group.checkbox .status, #addPartner .form-group.checkbox .status {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#addClient .form-group.checkbox > label, #addPartner .form-group.checkbox > label {
+  padding-left: 30px;
+}
+#addClient .form-group.checkbox > label:before, #addPartner .form-group.checkbox > label:before {
+  left: 0;
+}
+#addClient .form-group.checkbox [for=invite], #addPartner .form-group.checkbox [for=invite] {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0;
+}
+#addClient .as-loader, #addPartner .as-loader {
+  right: 15px;
+}
+#addClient .clientPhone2_wrapper a.icon-basket, #addPartner .clientPhone2_wrapper a.icon-basket {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+//.clients-page {
+
+  .marker-pending {
+    background-color: #f0ad4e;
+  }
+
+  .clients-page .card-order > .row > div:nth-of-type(4) {
+    background-color: #fff;
+    padding-right: 45px;
+  }
+
+  .clients-page .content-box__row {
+    position: relative;
+  }
+
+  .clients-page .col-xs-6:nth-child(3) .client-info,
+  .clients-page .col-xs-6:nth-child(4) .client-info {
+    padding-bottom: 0;
+  }
+//}
+
+  .clients-page .panel-client {
+    position: absolute !important;
+    right: 15px;
+    top: 15px;
+  }
+
+  .clients-page .panel-client .btn-collapse {
+    right: 0 !important;
+  }
+
+  .clients-page .panel-client .editing-tools {
+    right: 0 !important;
+  }
+
+  .clients-page .panel-client .panel-body {
+    padding: 0 !important;
+  }
+
+  .clients-page .panel-client__icon {
+    margin-bottom: 15px;
+    position: relative !important;
+    display: block;
+  }
+
+  .client__description {
+    width: 100%;
+  }
+
+  .client-info {
+    //padding-bottom: 26px;
+    padding-bottom: $row_margin_bottom_info;
+  }
+
+  .client-info .label-card {
+    font-family: 'opensans-semibold';
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+
+  .client-info__details {
+    line-height: 30px;
+  }
+
+  .client {
+    display: flex;
+    padding-top: 25px;
+  }
+
+  .client__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .client__image--online::after {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    content: '';
+    background-color: #007cff;
+    display: block;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+  }
+
+  @media (max-width: 767.999px) {
+    .card-order--clients {
+      padding-top: 15px;
+    }
+
+    .panel-client__icon {
+      position: relative !important;
+      margin-top: 25px;
+      top: 15px !important;
+    }
+
+    .panel-client .editing-tools .edit {
+      right: 0 !important;
+      top: 0 !important;
+      position: relative !important;
+    }
+
+    .panel-client .editing-tools .trash {
+      right: 0 !important;
+      bottom: 0 !important;
+      position: relative !important;
+    }
+  }
+//}

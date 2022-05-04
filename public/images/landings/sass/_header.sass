@@ -1,0 +1,297 @@
+header
+	box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.03)
+	padding: 14px 0
+	position: absolute
+	left: 0
+	top: 0
+	right: 0
+	background-color: #fff
+	z-index: 2
+	transition: all .3s ease
+	//overflow-x: hidden
+	+media-breakpoint-down(sm)
+		padding: 8px 0
+
+	.logo
+		+media-breakpoint-down(lg)
+			z-index: 11
+			position: relative
+
+		svg
+			width: 81px
+			height: 26px
+
+	.right
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		align-items: center
+		justify-content: flex-end
+	
+
+		.toggle-mnu 
+			display: block
+			width: 15px
+			height: 15px
+			z-index: 12
+			position: relative
+
+			span:after, span:before 
+				content: ""
+				position: absolute
+				left: 0
+				top: 6px
+
+			span:after
+				top: 12px
+
+			span 
+				position: relative
+				display: block
+
+			span,
+			span:after,
+			span:before
+				width: 100%
+				height: 2px
+				background-color: $accent
+				transition: all 0.3s
+				backface-visibility: hidden
+
+
+			&.on span 
+				background-color: transparent
+
+			&.on span:before 
+				transform: rotate(45deg) translate(-1px, 0px)
+				width: 20px
+
+			&.on span:after 
+				transform: rotate(-45deg) translate(4px, -6px)
+				width: 20px
+
+		#menu
+			+media-breakpoint-down(lg)
+				position: fixed
+				background-color: #fff
+				left: 0
+				right: 0
+				bottom: 0
+				top: 0
+				z-index: 10
+				padding: 0 30px
+				display: none
+				-webkit-overflow-scrolling: touch
+
+			.links
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				align-items: center
+				justify-content: center
+				margin-top: 70px
+
+				a
+					margin: 0 30px
+					color: #2C3345
+					font-family: $secondfont
+
+					&:nth-child(2)
+						color: $accent
+
+			.mnu__row
+				+media-breakpoint-down(lg)
+					margin-top: 36px
+					margin-bottom: 44px
+
+			h1
+				text-align: center
+				margin-top: 44px
+				margin-bottom: 62px
+				+media-breakpoint-down(lg)
+					margin-bottom: 0
+					margin-top: 0
+
+				+media-breakpoint-down(sm)
+					font-size: 16px
+
+			.fz25
+				font-size: 25px
+
+			.btn-default
+				font-family: $secondfont
+				+media-breakpoint-down(sm)
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					max-width: 170px
+					justify-content: center
+					align-items: center
+					text-align: center
+					margin: 20px auto 0
+					height: 40px
+
+			.rect1
+				+media-breakpoint-down(lg)
+					width: 85px
+					height: 85px
+					position: absolute
+					bottom: -50px
+					left: 0
+					background: linear-gradient(135.01deg, #32FBFC 0%, #3214F2 100%)
+					mix-blend-mode: normal
+					opacity: 0.9
+					box-shadow: 0px 2.29725px 4.5945px rgba(0, 0, 0, 0.1)
+					backdrop-filter: blur(7.80571px)
+					border-radius: 11.4862px
+					transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+
+			.rect2
+				+media-breakpoint-down(lg)
+					width: 175px
+					height: 175px
+					position: absolute
+					right: -50px
+					bottom: -50px
+					background: #337DF7
+					mix-blend-mode: normal
+					box-shadow: 0px 2.29725px 4.5945px rgba(0, 0, 0, 0.15)
+					backdrop-filter: blur(7.80571px)
+					border-radius: 11.4862px
+					transform: matrix(0.42, 0.91, -0.91, 0.42, 0, 0)
+
+			.rect3
+				+media-breakpoint-down(lg)
+					width: 175px
+					height: 175px
+					position: absolute
+					right: -50px
+					bottom: -40px
+					background: linear-gradient(180deg, #5ECB54 0%, rgba(21, 255, 0, 0.63) 100%)
+					mix-blend-mode: normal
+					box-shadow: 0px 2.29725px 4.5945px rgba(0, 0, 0, 0.2)
+					backdrop-filter: blur(7.80571px)
+					border-radius: 11.4862px
+					transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0)
+
+		#main-menu
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			margin-right: 40px
+			+media-breakpoint-down(lg)
+				flex-direction: column
+				//display: none
+
+			li
+				+media-breakpoint-down(lg)
+					margin-bottom: 25px
+
+				a
+					font-size: 13px
+					color: #272727
+					letter-spacing: 0.0082em
+					font-weight: 600
+					font-family: $secondfont
+					+media-breakpoint-down(lg)
+						font-size: 16px
+
+				&:not(:last-child)
+					margin-right: 30px
+
+		.login
+			color: $accent
+			font-size: 14px
+			margin-right: 34px
+			font-weight: bold
+			font-family: $secondfont
+			+media-breakpoint-down(sm)
+				display: none
+
+		.btn-default
+			padding-top: 0
+			padding-bottom: 0
+			height: 40px
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			justify-content: center
+			line-height: 1
+			font-family: $secondfont
+			+media-breakpoint-down(sm)
+				display: none
+
+		.lang
+			margin: 0 13px 0 46px
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			font-family: $secondfont
+			+media-breakpoint-down(lg)
+				//display: none
+				z-index: 11
+
+
+			svg
+				width: 30px
+				height: 30px
+
+			ul
+				list-style: none
+				padding: 0
+				margin: 0
+
+				li
+					a
+						font-size: 14px
+						font-weight: bold
+
+.sticky
+	position: fixed
+	animation: slide-down 0.5s
+	left: 0
+	right: 0
+	z-index: 10
+	background-color: #fff
+
+
+@-webkit-keyframes slide-down
+  0%
+    //opacity: 0
+    transform: translateY(-100%)
+
+  100%
+    //opacity: 0.9
+    transform: translateY(0)
+
+@-moz-keyframes slide-down
+  0%
+    //opacity: 0
+    transform: translateY(-100%)
+
+  100%
+    //opacity: 0.9
+    transform: translateY(0)
+
+@keyframes slide-down
+  0%
+    //opacity: 0
+    transform: translateY(-100%)
+
+  100%
+    //opacity: 0.9
+    transform: translateY(0)
